@@ -28,7 +28,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-11-20",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "জৈব"
@@ -95,7 +95,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-11-25",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "স্টার্চি"
@@ -160,7 +160,7 @@
         ],
         "discount": 8,
         "expiryDate": "2024-11-30",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "জৈব"
@@ -226,7 +226,7 @@
         ],
         "discount": 0,
         "expiryDate": "২০২৪-১১-২০",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "কচকচে"
@@ -292,7 +292,7 @@
         ],
         "discount": 15,
         "expiryDate": "২০২৪-১২-১৫",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "অর্গানিক",
             "স্বাস্থ্যকর"
@@ -358,7 +358,7 @@
         ],
         "discount": 12,
         "expiryDate": "২০২৪-১১-২২",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "ঝাল"
@@ -424,7 +424,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-12-01",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "মিষ্টি"
@@ -489,7 +489,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-11-25",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "খাস্তা"
@@ -554,7 +554,7 @@
         ],
         "discount": 15,
         "expiryDate": "2024-11-30",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "রঙিন"
@@ -620,7 +620,7 @@
         ],
         "discount": 12,
         "expiryDate": "2024-১২-১০",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "স্বাস্থ্যকর"
@@ -686,7 +686,7 @@
         ],
         "discount": 8,
         "expiryDate": "2024-১২-১৫",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "খাস"
@@ -752,7 +752,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-১২-২০",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "জৈব",
             "স্বাস্থ্যকর"
@@ -818,7 +818,7 @@
         ],
         "discount": 15,
         "expiryDate": "2024-12-30",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "জৈব"
@@ -884,7 +884,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-12-05",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "খাস্তা"
@@ -950,7 +950,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-12-01",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "মিষ্টি",
             "তাজা"
@@ -1015,7 +1015,7 @@
         ],
         "discount": 8,
         "expiryDate": "2024-12-15",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "জৈব",
             "পুষ্টিকর"
@@ -1081,7 +1081,7 @@
         ],
         "discount": 3,
         "expiryDate": "2024-11-25",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "সুগন্ধি"
@@ -1147,7 +1147,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-12-05",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "জৈব"
@@ -1212,7 +1212,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-12-10",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "জৈব"
@@ -1278,7 +1278,7 @@
         ],
         "discount": 6,
         "expiryDate": "2024-12-18",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "রঙিন"
@@ -1344,7 +1344,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-12-02",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "ক্রাঞ্চি"
@@ -1409,7 +1409,7 @@
         ],
         "discount": 10,
         "expiryDate": "2024-১১-৩০",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "সবুজ",
             "অর্গানিক"
@@ -1472,7 +1472,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-১২-০৫",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "খাস্তা",
             "তাজা"
@@ -1535,7 +1535,7 @@
         ],
         "discount": 7,
         "expiryDate": "2024-১২-১০",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "খাস্তা",
             "উজ্জ্বল"
@@ -1598,7 +1598,7 @@
         ],
         "discount": 8,
         "expiryDate": "2024-12-20",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "মিষ্টি",
             "কোমল"
@@ -1661,7 +1661,7 @@
         ],
         "discount": 5,
         "expiryDate": "2024-12-18",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "বহুমুখী",
             "পুষ্টিকর"
@@ -1725,7 +1725,7 @@
         ],
         "discount": 7,
         "expiryDate": "2024-12-25",
-        "category": "শাকসবজি",
+        "category": "vegetables",
         "tags": [
             "পাকা",
             "রসালো"
@@ -1788,7 +1788,7 @@
         ],
         "discount": 6,
         "expiryDate": "2024-12-30",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তীক্ষ্ণ",
             "স্বাদযুক্ত"
@@ -1851,7 +1851,7 @@
         ],
         "discount": 9,
         "expiryDate": "2025-01-10",
-        "category": "মশলা",
+        "category": "spices",
         "tags": [
             "সুগন্ধি",
             "প্রিমিয়াম"
@@ -1914,7 +1914,7 @@
         ],
         "discount": 6,
         "expiryDate": "2024-12-15",
-        "category": "সবজি",
+        "category": "vegetables",
         "tags": [
             "তাজা",
             "সুস্বাদু"
