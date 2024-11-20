@@ -526,7 +526,6 @@
     },
     "averageResponseTime": "45 minutes"
   },
-
   {
     "id": 9,
     "availableOffer": true,
@@ -592,7 +591,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
   {
     "id": 10,
     "availableOffer": true,
@@ -659,7 +657,6 @@
     },
     "averageResponseTime": "1.5 hours"
   },
-
   {
     "id": 11,
     "availableOffer": true,
@@ -726,7 +723,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 12,
     "availableOffer": false,
@@ -793,7 +789,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
   {
     "id": 13,
     "availableOffer": true,
@@ -860,8 +855,6 @@
     },
     "averageResponseTime": "1.5 hours"
   },
-
-
   {
     "id": 14,
     "availableOffer": true,
@@ -928,8 +921,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
-
   {
     "id": 15,
     "availableOffer": true,
@@ -996,7 +987,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
   {
     "id": 16,
     "availableOffer": false,
@@ -1062,7 +1052,6 @@
     },
     "averageResponseTime": "45 minutes"
   },
-
   {
     "id": 17,
     "availableOffer": false,
@@ -1129,7 +1118,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 18,
     "availableOffer": true,
@@ -1196,7 +1184,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 19,
     "availableOffer": true,
@@ -1262,7 +1249,6 @@
     },
     "averageResponseTime": "3 hours"
   },
-
   {
     "id": 20,
     "availableOffer": false,
@@ -1329,7 +1315,6 @@
     },
     "averageResponseTime": "2.5 hours"
   },
-
   {
     "id": 21,
     "availableOffer": true,
@@ -1396,8 +1381,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
-
   {
     "id": 22,
     "availableOffer": true,
@@ -1461,7 +1444,6 @@
     },
     "averageResponseTime": "1 hour"
   },
-
   {
     "id": 23,
     "availableOffer": false,
@@ -1525,8 +1507,6 @@
     },
     "averageResponseTime": "30 minutes"
   },
-
-
   {
     "id": 24,
     "availableOffer": true,
@@ -1590,7 +1570,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 25,
     "availableOffer": true,
@@ -1654,7 +1633,6 @@
     },
     "averageResponseTime": "1.5 hours"
   },
-
   {
     "id": 26,
     "availableOffer": true,
@@ -1719,7 +1697,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 27,
     "availableOffer": false,
@@ -1846,7 +1823,6 @@
     },
     "averageResponseTime": "1.5 hours"
   },
-  
   {
     "id": 29,
     "availableOffer": false,
@@ -1910,7 +1886,6 @@
     },
     "averageResponseTime": "2 hours"
   },
-
   {
     "id": 30,
     "availableOffer": true,
@@ -1974,5 +1949,4 @@
     },
     "averageResponseTime": "1.5 hours"
   }
-  
 ]
