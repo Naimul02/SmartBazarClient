@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Carousel = () => {
     const quotes = [
@@ -48,7 +49,7 @@ const Carousel = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             nextSlide();
-        }, 3000); // Adjust the time interval as needed (in milliseconds)
+        }, 9000); // Adjust the time interval as needed (in milliseconds)
 
         return () => {
             clearInterval(interval); // Clear the interval on component unmount
@@ -59,13 +60,15 @@ const Carousel = () => {
         <div
             className="relative flex items-center justify-center h-screen bg-cover bg-center text-black px-4 mt-16 transition-transform duration-500"
             style={{ backgroundImage: `url(${quotes[currentIndex]})` }}
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
         >
             {/* Left Arrow */}
             <button
                 onClick={prevSlide}
-                className="absolute left-4 sm:left-6 md:left-8 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-white border border-yellow-500  hover:text-yellow-500  hover:border-yellow-500 rounded-full p-2 hover:bg-transparent hover:border-transparent hover:text-transparent transition-all z-50"
+                className="absolute left-4 sm:left-6 md:left-8 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-white border border-yellow-500 hover:text-yellow-500 hover:border-yellow-500 rounded-full p-2 hover:bg-transparent hover:border-transparent hover:text-transparent transition-all z-50"
             >
-                &#9664; {/* Left Arrow Icon */}
+                <IoIosArrowBack /> {/* Left Arrow Icon */}
             </button>
 
             {/* Slide Content */}
@@ -76,8 +79,6 @@ const Carousel = () => {
                         ? "items-end pr-8" // Right alignment for the second slide
                         : "items-center" // Center alignment for the third slide
                     } justify-center w-full h-full text-center transition-opacity duration-500 ${fadeClass}`}
-                onMouseDown={handleMouseDown}
-                onMouseUp={handleMouseUp}
             >
                 <div
                     className={`space-y-4 ${currentIndex === 0
@@ -140,7 +141,7 @@ const Carousel = () => {
                 onClick={nextSlide}
                 className="absolute right-4 sm:right-6 md:right-8 top-1/2 transform -translate-y-1/2 bg-yellow-500 text-white border border-yellow-500 hover:text-yellow-500 hover:border-yellow-500 rounded-full p-2 hover:bg-transparent hover:border-transparent hover:text-transparent transition-all"
             >
-                &#9654; {/* Right Arrow Icon */}
+                <IoIosArrowForward />  {/* Right Arrow Icon */}
             </button>
 
             {/* Navigation Dots */}
