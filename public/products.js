@@ -5,7 +5,7 @@ const products = [
         availableOffer: true,
         coupon: true,
         name: "Tomato",
-        farmer: "Abdul Karim",
+        farmer: "Abdul Karim miah",
         price: 20,
         quantity: 50,
         unit: "kg",
