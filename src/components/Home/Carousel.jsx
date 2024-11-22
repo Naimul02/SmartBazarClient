@@ -90,6 +90,7 @@ const Carousel = () => {
                 >
                     {currentIndex === 0 && (
                         <>
+                        {/* 1st image */}
                             <div className="pl-16"> {/* Adjusted padding for right alignment */}
                                 <small className="font-semibold text-xs sm:text-sm md:text-base lg:text-lg animate-slide-up">
                                     Summer Vage Sale
