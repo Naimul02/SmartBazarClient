@@ -19,18 +19,18 @@ const Footer = () => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:max-w-screen-2xl lg:mx-auto px-1">
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center">
-            <div className="rounded-full border-2 border-orange-400 w-[100px] h-[100px] flex items-center justify-center transition-all duration-300 ease-in-out group-hover:border-orange-600">
-              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center transition-all duration-300 ease-in-out group-hover:border-orange-600">
+            <div className="rounded-full border-2 border-orange-400 w-[100px] h-[100px] flex items-center justify-center">
+              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center transition hover:origin-center hover:-rotate-45 duration-300 hover:w-[75px] hover:h-[90px] hover:rounded-s-full">
                 <FaTruckMoving className="text-white text-4xl" />
               </div>
             </div>
           </div>
-          <p className="font-medium text-sm transition-colors duration-300 ease-in-out group-hover:text-orange-600">Free delivery</p>
+          <p className="font-medium text-sm">Free delivery</p>
         </div>
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center">
             <div className="rounded-full border-2 border-orange-400 w-[100px] h-[100px] flex items-center justify-center">
-              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center">
+              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center transition hover:origin-center hover:-rotate-45 duration-300 hover:w-[75px] hover:h-[90px] hover:rounded-s-full">
                 <TbCoinTakaFilled className="text-white text-5xl" />
               </div>
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center">
             <div className="rounded-full border-2 border-orange-400 w-[100px] h-[100px] flex items-center justify-center">
-              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center">
+              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center transition hover:origin-center hover:-rotate-45 duration-300 hover:w-[75px] hover:h-[90px] hover:rounded-s-full">
                 <BiRefresh className="text-white text-5xl" />
               </div>
             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center">
             <div className="rounded-full border-2 border-orange-400 w-[100px] h-[100px] flex items-center justify-center">
-              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center">
+              <div className="w-[80px] h-[80px] rounded-full bg-orange-400 flex items-center justify-center transition hover:origin-center hover:-rotate-45 duration-300 hover:w-[75px] hover:h-[90px] hover:rounded-s-full">
                 <FaHeadphones className="text-white text-[32px]" />
               </div>
             </div>
@@ -86,8 +86,8 @@ const Footer = () => {
             <h3 className="font-bold text-orange-400 text-lg mb-1">
               Get in touch
             </h3>
-            <p>+8801844556677</p>
-            <p>smartBazar60@gmail.com</p>
+            <p className="hover:text-orange-400 cursor-pointer">+8801844556677</p>
+            <p className="hover:text-orange-400 cursor-pointer">smartBazar60@gmail.com</p>
           </div>
         </div>
       </div>
@@ -230,7 +230,7 @@ const Footer = () => {
                 className="h-10"
               />
             </div>
-            <div className="px-2">
+            <div className="pl-2">
               <img
                 src="https://i.ibb.co.com/6Z11whB/Nagad-Logo-wine1.png"
                 alt=""
