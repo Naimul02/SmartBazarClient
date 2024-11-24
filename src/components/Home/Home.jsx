@@ -1,3 +1,4 @@
+
 import Carousel from "./Carousel";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
             <Carousel></Carousel>
         </div>
     );
+
 };
 
 export default Home;
