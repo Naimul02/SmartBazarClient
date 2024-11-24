@@ -1,9 +1,13 @@
+
+import Carousel from "./Carousel";
+
 const Home = () => {
-  return (
-    <div>
-      <h3 className="text-xl font-bold">This is Home component</h3>
-    </div>
-  );
+    return (
+        <div>
+            <Carousel></Carousel>
+        </div>
+    );
+
 };
 
 export default Home;
