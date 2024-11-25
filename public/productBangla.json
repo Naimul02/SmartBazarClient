@@ -1,0 +1,1952 @@
+[
+    {
+        "id": 1,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "টমেটো",
+        "farmer": "আব্দুল করিম",
+        "price": 20,
+        "quantity": 50,
+        "unit": "কেজি",
+        "location": "ঢাকা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010643/Tomato-2_f7b1k7.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010643/Tomato-2_f7b1k7.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010632/Tomato-3_tqbely.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010669/tomato_qjsrwb.jpg"
+        ],
+        "description": "তাজা ও জৈব টমেটো।",
+        "rating": 4.5,
+        "reviews": 12,
+        "comments": [
+            {
+                "user": "রহিম",
+                "userEmail": "rahim@gmail.com",
+                "text": "খুবই তাজা এবং সুস্বাদু!",
+                "date": "2024-11-01"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-11-20",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "জৈব"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৩ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 30,
+        "addedDate": "2024-10-15",
+        "lastUpdated": "2024-11-01",
+        "relatedProducts": [
+            2,
+            3,
+            4
+        ],
+        "personalizedSuggestions": [
+            5,
+            6
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯০",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯০",
+        "farmDetails": {
+            "farmName": "গ্রীন ভ্যালি ফার্মস",
+            "area": "৫ একর",
+            "methods": [
+                "জৈব",
+                "হাইড্রোপনিক্স"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 2,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "আলু",
+        "farmer": "হাসান আলী",
+        "price": 15,
+        "quantity": 80,
+        "unit": "কেজি",
+        "location": "সিলেট",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-4_tewqku.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-4_tewqku.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/Potato-2_dixxse.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-3_syd9lx.jpg"
+        ],
+        "description": "তাজা এবং উচ্চমানের আলু।",
+        "rating": 4.7,
+        "reviews": 8,
+        "comments": [
+            {
+                "user": "করিম",
+                "userEmail": "karim@gmail.com",
+                "text": "রান্নার জন্য পারফেক্ট।",
+                "date": "2024-11-05"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-11-25",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "স্টার্চি"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "এই পণ্য ফেরত দেয়া যাবে না",
+        "isRefundable": false,
+        "stockStatus": "স্টকে আছে",
+        "sold": 20,
+        "addedDate": "2024-10-12",
+        "lastUpdated": "2024-11-02",
+        "relatedProducts": [
+            1,
+            3,
+            5
+        ],
+        "personalizedSuggestions": [
+            7,
+            8
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯১",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯১",
+        "farmDetails": {
+            "farmName": "গোল্ডেন ফিল্ড ফার্মস",
+            "area": "৩ একর",
+            "methods": [
+                "প্রচলিত"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 3,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "গাজর",
+        "farmer": "শাহিনুর রহমান",
+        "price": 18,
+        "quantity": 40,
+        "unit": "কেজি",
+        "location": "রাজশাহী",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010593/Carrots-3_hnnkzt.jpg",
+        "gallery": [
+            " https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010593/Carrots-3_hnnkzt.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010605/carrot_hfhpqq.jpg "
+        ],
+        "description": "তাজা এবং মচমচে গাজর।",
+        "rating": 4.3,
+        "reviews": 15,
+        "comments": [
+            {
+                "user": "লিজা",
+                "userEmail": "liza@gmail.com",
+                "text": "অসাধারণ স্বাদ!",
+                "date": "2024-11-02"
+            }
+        ],
+        "discount": 8,
+        "expiryDate": "2024-11-30",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "জৈব"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৩ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 25,
+        "addedDate": "2024-10-10",
+        "lastUpdated": "2024-11-02",
+        "relatedProducts": [
+            1,
+            2,
+            4
+        ],
+        "personalizedSuggestions": [
+            6,
+            7
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯২",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯২",
+        "farmDetails": {
+            "farmName": "ফ্রেশ রুটস ফার্ম",
+            "area": "৪ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "৩০ মিনিট"
+    },
+    {
+        "id": 4,
+        "availableOffer": false,
+        "coupon": false,
+        "name": "শসা",
+        "farmer": "শাহিনা বেগম",
+        "price": 12,
+        "quantity": 100,
+        "unit": "কেজি",
+        "location": "খুলনা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010600/Cucumber-3_vwr69r.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010600/Cucumber-3_vwr69r.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010599/Cucumber-2_wiw0hp.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010612/Cucumber._krqyj8.jpg"
+        ],
+        "description": "তাজা এবং রসালো শসা।",
+        "rating": 4.8,
+        "reviews": 20,
+        "comments": [
+            {
+                "user": "ফাহিম",
+                "userEmail": "fahim@gmail.com",
+                "text": "কচকচে এবং তাজা!",
+                "date": "২০২৪-১১-০৩"
+            }
+        ],
+        "discount": 0,
+        "expiryDate": "২০২৪-১১-২০",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "কচকচে"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "৩-৪ দিন",
+        "returnPolicy": "৫ দিনের মধ্যে ফেরত দেওয়া যাবে যদি সন্তুষ্ট না হন।",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 50,
+        "addedDate": "২০২৪-১০-১৮",
+        "lastUpdated": "২০২৪-১১-০৩",
+        "relatedProducts": [
+            1,
+            2,
+            5
+        ],
+        "personalizedSuggestions": [
+            8,
+            9
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯৩",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯৩",
+        "farmDetails": {
+            "farmName": "হেলদি ভেজিস",
+            "area": "৬ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 5,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "পালং শাক",
+        "farmer": "সোহেল আহমেদ",
+        "price": 10,
+        "quantity": 200,
+        "unit": "কেজি",
+        "location": "বরিশাল",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Spinach-w-bg_adscyk.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Spinach-w-bg_adscyk.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010622/Spinach-2_scxzqq.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010618/Spinach-3_tad6w7.jpg"
+        ],
+        "description": "তাজা এবং অর্গানিক পালং শাক।",
+        "rating": 4.6,
+        "reviews": 25,
+        "comments": [
+            {
+                "user": "আহসান",
+                "userEmail": "ahsan@gmail.com",
+                "text": "খুবই স্বাস্থ্যকর এবং তাজা!",
+                "date": "২০২৪-১১-০৬"
+            }
+        ],
+        "discount": 15,
+        "expiryDate": "২০২৪-১২-১৫",
+        "category": "vegetables",
+        "tags": [
+            "অর্গানিক",
+            "স্বাস্থ্যকর"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "৭ দিনের মধ্যে ফেরত দেওয়া যাবে যদি সন্তুষ্ট না হন।",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 60,
+        "addedDate": "২০২৪-১০-২০",
+        "lastUpdated": "২০২৪-১১-০৬",
+        "relatedProducts": [
+            2,
+            3,
+            6
+        ],
+        "personalizedSuggestions": [
+            7,
+            10
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯৪",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯৪",
+        "farmDetails": {
+            "farmName": "গ্রীন লিফ ফার্মস",
+            "area": "৮ একর",
+            "methods": [
+                "হাইড্রোপনিক্স"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 6,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "পেঁয়াজ",
+        "farmer": "মিজানুর রহমান",
+        "price": 25,
+        "quantity": 50,
+        "unit": "কেজি",
+        "location": "রাজশাহী",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/onion_exb2t9.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/onion_exb2t9.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/Onion-2_vvurpg.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/onion-4_ohddxc.jpg"
+        ],
+        "description": "তাজা এবং ঝাল পেঁয়াজ।",
+        "rating": 4.4,
+        "reviews": 18,
+        "comments": [
+            {
+                "user": "মনির",
+                "userEmail": "monir@gmail.com",
+                "text": "ভালো মানের পেঁয়াজ।",
+                "date": "২০২৪-১১-০৭"
+            }
+        ],
+        "discount": 12,
+        "expiryDate": "২০২৪-১১-২২",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "ঝাল"
+        ],
+        "deliveryOptions": [
+            "বাড়িতে ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "৫ দিনের মধ্যে ফেরত দেওয়া যাবে যদি সন্তুষ্ট না হন।",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 40,
+        "addedDate": "২০২৪-১০-২২",
+        "lastUpdated": "২০২৪-১১-০৭",
+        "relatedProducts": [
+            1,
+            3,
+            4
+        ],
+        "personalizedSuggestions": [
+            8,
+            10
+        ],
+        "supportContact": "+৮৮০১২৩৪৫৬৭৮৯৬",
+        "isVerified": true,
+        "farmerContact": "+৮৮০১২৩৪৫৬৭৮৯৬",
+        "farmDetails": {
+            "farmName": "পিওর সয়েল ফার্মস",
+            "area": "৩ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 7,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "পাম্পকিন",
+        "farmer": "জাহানারা বেগম",
+        "price": 30,
+        "quantity": 60,
+        "unit": "কেজি",
+        "location": "চট্টগ্রাম",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Pumpkin_phazcc.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Pumpkin_phazcc.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Pumpkin_phazcc.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Pumpkin_phazcc.jpg"
+        ],
+        "description": "তাজা এবং মিষ্টি পাম্পকিন।",
+        "rating": 4.7,
+        "reviews": 10,
+        "comments": [
+            {
+                "user": "আমিন",
+                "userEmail": "amin@gmail.com",
+                "text": "সুপের জন্য চমৎকার!",
+                "date": "2024-11-08"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-12-01",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "মিষ্টি"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৫ দিনের মধ্যে ফেরত দিতে পারবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 35,
+        "addedDate": "2024-10-25",
+        "lastUpdated": "2024-11-08",
+        "relatedProducts": [
+            2,
+            3,
+            8
+        ],
+        "personalizedSuggestions": [
+            11,
+            12
+        ],
+        "supportContact": "+8801234567897",
+        "isVerified": true,
+        "farmerContact": "+8801234567897",
+        "farmDetails": {
+            "farmName": "গোল্ডেন হার্ভেস্ট ফার্মস",
+            "area": "৭ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "১.৫ ঘণ্টা"
+    },
+    {
+        "id": 8,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "লেটুস",
+        "farmer": "রফিকুল ইসলাম",
+        "price": 8,
+        "quantity": 150,
+        "unit": "কেজি",
+        "location": "গাজীপুর",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010610/Lettuce_evqjzu.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010610/Lettuce_evqjzu.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010589/Cabbage-3_gae1vu.jpg"
+        ],
+        "description": "তাজা এবং খাস্তা লেটুস।",
+        "rating": 4.8,
+        "reviews": 22,
+        "comments": [
+            {
+                "user": "নাঈম",
+                "userEmail": "nayeem@gmail.com",
+                "text": "সালাদের জন্য পারফেক্ট।",
+                "date": "2024-11-09"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-11-25",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "খাস্তা"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৩ দিনের মধ্যে ফেরত দিতে পারবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 70,
+        "addedDate": "2024-10-28",
+        "lastUpdated": "2024-11-09",
+        "relatedProducts": [
+            1,
+            7,
+            9
+        ],
+        "personalizedSuggestions": [
+            13,
+            14
+        ],
+        "supportContact": "+8801234567898",
+        "isVerified": true,
+        "farmerContact": "+8801234567898",
+        "farmDetails": {
+            "farmName": "হেলথি গ্রীনস",
+            "area": "৫ একর",
+            "methods": [
+                "হাইড্রোপনিক্স"
+            ]
+        },
+        "averageResponseTime": "৪৫ মিনিট"
+    },
+    {
+        "id": 9,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "ক্যাপসিকাম",
+        "farmer": "নজরুল ইসলাম",
+        "price": 40,
+        "quantity": 30,
+        "unit": "কেজি",
+        "location": "বগুড়া",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010589/Capsicum_sxdyj3.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010589/Capsicum_sxdyj3.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010585/Bell_Pepper_dapqu8.jpg"
+        ],
+        "description": "তাজা এবং রঙিন ক্যাপসিকাম।",
+        "rating": 4.5,
+        "reviews": 18,
+        "comments": [
+            {
+                "user": "মিলা",
+                "userEmail": "mila@gmail.com",
+                "text": "আমার রান্নায় রঙ যোগ করে!",
+                "date": "2024-11-10"
+            }
+        ],
+        "discount": 15,
+        "expiryDate": "2024-11-30",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "রঙিন"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৫ দিনের মধ্যে ফেরত দিতে পারবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 20,
+        "addedDate": "2024-10-30",
+        "lastUpdated": "2024-11-10",
+        "relatedProducts": [
+            6,
+            7,
+            10
+        ],
+        "personalizedSuggestions": [
+            15,
+            16
+        ],
+        "supportContact": "+8801234567899",
+        "isVerified": true,
+        "farmerContact": "+8801234567899",
+        "farmDetails": {
+            "farmName": "কালারফুল ভেজিটেবলস ফার্ম",
+            "area": "২ একর",
+            "methods": [
+                "কনভেনশানাল"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 10,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "ব্রোকলি",
+        "farmer": "কমরুল হাসান",
+        "price": 25,
+        "quantity": 60,
+        "unit": "কেজি",
+        "location": "চট্টগ্রাম",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Broccoli_rm4aqe.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Broccoli_rm4aqe.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010657/Spinach_lekvb6.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010657/Spinach_lekvb6.jpg"
+        ],
+        "description": "তাজা এবং স্বাস্থ্যকর ব্রোকলি।",
+        "rating": 4.5,
+        "reviews": 20,
+        "comments": [
+            {
+                "user": "মিনা",
+                "userEmail": "mina@gmail.com",
+                "text": "খুব তাজা এবং সবুজ!",
+                "date": "2024-১১-০১"
+            }
+        ],
+        "discount": 12,
+        "expiryDate": "2024-১২-১০",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "স্বাস্থ্যকর"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "সন্তুষ্ট না হলে ৭ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 35,
+        "addedDate": "2024-১০-২৫",
+        "lastUpdated": "2024-১১-০১",
+        "relatedProducts": [
+            11,
+            12,
+            13
+        ],
+        "personalizedSuggestions": [
+            14,
+            15
+        ],
+        "supportContact": "+8801234567893",
+        "isVerified": true,
+        "farmerContact": "+8801234567893",
+        "farmDetails": {
+            "farmName": "হেলথি গ্রিন ফার্মস",
+            "area": "৬ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "১.৫ ঘণ্টা"
+    },
+    {
+        "id": 11,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "ক্যাবেজ",
+        "farmer": "জাহাঙ্গীর আলম",
+        "price": 18,
+        "quantity": 80,
+        "unit": "কেজি",
+        "location": "ময়মনসিংহ",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010589/Cabbage-3_gae1vu.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010589/Cabbage-3_gae1vu.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Cabbage-2_el2lxd.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Cabbage_ryp3e8.jpg"
+        ],
+        "description": "তাজা এবং খাস ক্যাবেজ।",
+        "rating": 4.3,
+        "reviews": 15,
+        "comments": [
+            {
+                "user": "রহিম",
+                "userEmail": "rahim@gmail.com",
+                "text": "ভালো মানের ক্যাবেজ!",
+                "date": "2024-১১-০৫"
+            }
+        ],
+        "discount": 8,
+        "expiryDate": "2024-১২-১৫",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "খাস"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "৩-৪ দিন",
+        "returnPolicy": "এই আইটেমে ফেরত নেই",
+        "isRefundable": false,
+        "stockStatus": "স্টকে আছে",
+        "sold": 40,
+        "addedDate": "2024-১০-১৮",
+        "lastUpdated": "2024-১১-০২",
+        "relatedProducts": [
+            10,
+            12,
+            14
+        ],
+        "personalizedSuggestions": [
+            16,
+            17
+        ],
+        "supportContact": "+8801234567894",
+        "isVerified": true,
+        "farmerContact": "+8801234567894",
+        "farmDetails": {
+            "farmName": "ফ্রেশ গ্রিনস ফার্ম",
+            "area": "৫ একর",
+            "methods": [
+                "হাইড্রোপনিক্স"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 12,
+        "availableOffer": false,
+        "coupon": false,
+        "name": "পালং শাক",
+        "farmer": "শাহিনুর রহমান",
+        "price": 22,
+        "quantity": 50,
+        "unit": "কেজি",
+        "location": "রাজশাহী",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Spinach-w-bg_adscyk.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Spinach-w-bg_adscyk.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010618/Spinach-3_tad6w7.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Spinach-w-bg_adscyk.jpg"
+        ],
+        "description": "তাজা এবং পুষ্টিকর পালং শাক।",
+        "rating": 4.8,
+        "reviews": 30,
+        "comments": [
+            {
+                "user": "লিজা",
+                "userEmail": "liza@gmail.com",
+                "text": "খুব স্বাস্থ্যকর এবং তাজা!",
+                "date": "2024-১১-০২"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-১২-২০",
+        "category": "vegetables",
+        "tags": [
+            "জৈব",
+            "স্বাস্থ্যকর"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "সন্তুষ্ট না হলে ৭ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 45,
+        "addedDate": "2024-১০-২২",
+        "lastUpdated": "2024-১১-০৩",
+        "relatedProducts": [
+            10,
+            11,
+            13
+        ],
+        "personalizedSuggestions": [
+            18,
+            19
+        ],
+        "supportContact": "+8801234567895",
+        "isVerified": true,
+        "farmerContact": "+8801234567895",
+        "farmDetails": {
+            "farmName": "গ্রিন হারভেস্ট ফার্ম",
+            "area": "৪ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 13,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "ফুলকপি",
+        "farmer": "মোশিউর রহমান",
+        "price": 28,
+        "quantity": 70,
+        "unit": "কেজি",
+        "location": "ঢাকা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010593/Cauliflower_zuwbfm.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010596/Cauliflower-3_gbej3b.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010596/Cauliflower-3_gbej3b.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010594/Cauliflower-2_s1dmrd.jpg"
+        ],
+        "description": "তাজা এবং উচ্চমানের ফুলকপি।",
+        "rating": 4.2,
+        "reviews": 18,
+        "comments": [
+            {
+                "user": "ফাহিম",
+                "userEmail": "fahim@gmail.com",
+                "text": "এটি সবচেয়ে ভালো ফুলকপি!",
+                "date": "2024-11-03"
+            }
+        ],
+        "discount": 15,
+        "expiryDate": "2024-12-30",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "জৈব"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৫ দিনের মধ্যে ফেরত দিবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে রয়েছে",
+        "sold": 38,
+        "addedDate": "2024-10-28",
+        "lastUpdated": "2024-11-02",
+        "relatedProducts": [
+            10,
+            12,
+            14
+        ],
+        "personalizedSuggestions": [
+            20,
+            21
+        ],
+        "supportContact": "+8801234567896",
+        "isVerified": true,
+        "farmerContact": "+8801234567896",
+        "farmDetails": {
+            "farmName": "গোল্ডেন ভেগ ফার্ম",
+            "area": "৭ একর",
+            "methods": [
+                "হাইড্রোপনিক্স"
+            ]
+        },
+        "averageResponseTime": "১.৫ ঘণ্টা"
+    },
+    {
+        "id": 14,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "সবুজ মটর",
+        "farmer": "শামীম হোসেন",
+        "price": 20,
+        "quantity": 90,
+        "unit": "কেজি",
+        "location": "সিলেট",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010606/Green_Peas_mgbgwc.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010608/Green_Peas-2_sx1fty.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010608/Green_Peas-2_sx1fty.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010606/Green_Beans-2_sjlxwz.jpg"
+        ],
+        "description": "তাজা এবং খাস্তা সবুজ মটর।",
+        "rating": 4.4,
+        "reviews": 12,
+        "comments": [
+            {
+                "user": "রহিম",
+                "userEmail": "rahim@gmail.com",
+                "text": "স্টার-ফ্রাই এর জন্য খুব ভালো।",
+                "date": "2024-11-05"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-12-05",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "খাস্তা"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৭ দিনের মধ্যে ফেরত দিবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে রয়েছে",
+        "sold": 50,
+        "addedDate": "2024-10-15",
+        "lastUpdated": "2024-11-02",
+        "relatedProducts": [
+            10,
+            11,
+            12
+        ],
+        "personalizedSuggestions": [
+            22,
+            23
+        ],
+        "supportContact": "+8801234567897",
+        "isVerified": true,
+        "farmerContact": "+8801234567897",
+        "farmDetails": {
+            "farmName": "হেলদি ভেগ ফার্ম",
+            "area": "৬ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 15,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "মিষ্টি কর্ন",
+        "farmer": "শফিক আহমেদ",
+        "price": 15,
+        "quantity": 70,
+        "unit": "কেজি",
+        "location": "রংপুর",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010620/Sweet-Corn_oilsor.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010620/Sweet-Corn_oilsor.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010622/Sweet-Corn-2_m6kvqh.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010624/Sweet-corn-3_a5vd1c.jpg"
+        ],
+        "description": "মিষ্টি এবং তাজা ভুট্টা।",
+        "rating": 4.7,
+        "reviews": 12,
+        "comments": [
+            {
+                "user": "তানিয়া",
+                "userEmail": "tania@gmail.com",
+                "text": "অসাধারণ স্বাদ!",
+                "date": "2024-11-05"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-12-01",
+        "category": "vegetables",
+        "tags": [
+            "মিষ্টি",
+            "তাজা"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৫ দিনের মধ্যে ফেরত দিবেন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে রয়েছে",
+        "sold": 25,
+        "addedDate": "2024-10-28",
+        "lastUpdated": "2024-11-05",
+        "relatedProducts": [
+            1,
+            2,
+            3
+        ],
+        "personalizedSuggestions": [
+            17,
+            18
+        ],
+        "supportContact": "+8801234567890",
+        "isVerified": true,
+        "farmerContact": "+8801234567890",
+        "farmDetails": {
+            "farmName": "গোল্ডেন কর্ন ফার্ম",
+            "area": "৪ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 16,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "মাশরুম",
+        "farmer": "হাসিনা বেগম",
+        "price": 50,
+        "quantity": 30,
+        "unit": "কেজি",
+        "location": "ঢাকা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010611/Mushrooms_b05kzk.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010611/Mushrooms_b05kzk.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/Mushrooms-2_qhil2e.jpg"
+        ],
+        "description": "জৈব এবং তাজা মাশরুম।",
+        "rating": 4.9,
+        "reviews": 10,
+        "comments": [
+            {
+                "user": "রাফি",
+                "userEmail": "rafi@gmail.com",
+                "text": "রান্নার জন্য চমৎকার!",
+                "date": "2024-11-08"
+            }
+        ],
+        "discount": 8,
+        "expiryDate": "2024-12-15",
+        "category": "vegetables",
+        "tags": [
+            "জৈব",
+            "পুষ্টিকর"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৭ দিনের মধ্যে ফেরত দেওয়া যাবে",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 20,
+        "addedDate": "2024-10-30",
+        "lastUpdated": "2024-11-06",
+        "relatedProducts": [
+            4,
+            5,
+            6
+        ],
+        "personalizedSuggestions": [
+            19,
+            20
+        ],
+        "supportContact": "+8801234567891",
+        "isVerified": true,
+        "farmerContact": "+8801234567891",
+        "farmDetails": {
+            "farmName": "মাশরুম ভ্যালি",
+            "area": "৩ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "৪৫ মিনিট"
+    },
+    {
+        "id": 17,
+        "availableOffer": false,
+        "coupon": false,
+        "name": "পেঁয়াজ",
+        "farmer": "হোসেন আহমেদ",
+        "price": 10,
+        "quantity": 200,
+        "unit": "কেজি",
+        "location": "রাজশাহী",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/onion-4_ohddxc.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/onion-4_ohddxc.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/onion_exb2t9.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010613/Onion-2_vvurpg.jpg"
+        ],
+        "description": "তাজা এবং সুগন্ধি পেঁয়াজ।",
+        "rating": 4.2,
+        "reviews": 35,
+        "comments": [
+            {
+                "user": "আরিফ",
+                "userEmail": "arif@gmail.com",
+                "text": "ভাল মানের, রান্নার জন্য পারফেক্ট!",
+                "date": "2024-11-03"
+            }
+        ],
+        "discount": 3,
+        "expiryDate": "2024-11-25",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "সুগন্ধি"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "৩-৪ দিন",
+        "returnPolicy": "ফেরত দেওয়ার অনুমতি নেই",
+        "isRefundable": false,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 150,
+        "addedDate": "2024-10-18",
+        "lastUpdated": "2024-11-01",
+        "relatedProducts": [
+            15,
+            16,
+            18
+        ],
+        "personalizedSuggestions": [
+            19,
+            20
+        ],
+        "supportContact": "+8801234567900",
+        "isVerified": true,
+        "farmerContact": "+8801234567900",
+        "farmDetails": {
+            "farmName": "ফ্রেশ পেঁয়াজ ফার্ম",
+            "area": "১৫ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 18,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "রসুন",
+        "farmer": "যাহিরুল ইসলাম",
+        "price": 25,
+        "quantity": 75,
+        "unit": "কেজি",
+        "location": "চট্টগ্রাম",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010601/Garlic_owqh7m.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010601/Garlic_owqh7m.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010602/Garlic-2_tnvewx.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010605/Garlic-3_acbwys.jpg"
+        ],
+        "description": "রান্নার জন্য তাজা, জৈব রসুন।",
+        "rating": 4.4,
+        "reviews": 40,
+        "comments": [
+            {
+                "user": "রিনা",
+                "userEmail": "rina@gmail.com",
+                "text": "সব ধরনের রান্নার জন্য অত্যন্ত সুপারিশ করি!",
+                "date": "2024-11-06"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-12-05",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "জৈব"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "অসন্তুষ্ট হলে ৭ দিনের মধ্যে ফেরত দেওয়া যাবে",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 55,
+        "addedDate": "2024-10-20",
+        "lastUpdated": "2024-11-01",
+        "relatedProducts": [
+            15,
+            16,
+            17
+        ],
+        "personalizedSuggestions": [
+            21,
+            22
+        ],
+        "supportContact": "+8801234567901",
+        "isVerified": true,
+        "farmerContact": "+8801234567901",
+        "farmDetails": {
+            "farmName": "গার্লিক ফার্ম বাংলাদেশ",
+            "area": "১২ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 19,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "আলু",
+        "farmer": "তারিক হোসেন",
+        "price": 8,
+        "quantity": 300,
+        "unit": "কেজি",
+        "location": "নারায়ণগঞ্জ",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-4_tewqku.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-4_tewqku.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-3_syd9lx.jpg"
+        ],
+        "description": "আপনার রান্নাঘরের জন্য তাজা, জৈব আলু।",
+        "rating": 4.3,
+        "reviews": 60,
+        "comments": [
+            {
+                "user": "কাদের",
+                "userEmail": "kader@gmail.com",
+                "text": "ফ্রাই বানানোর জন্য খুব ভালো!",
+                "date": "2024-11-05"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-12-10",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "জৈব"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "৩-৪ দিন",
+        "returnPolicy": "কোনো রিটার্ন নেই",
+        "isRefundable": false,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 200,
+        "addedDate": "2024-10-05",
+        "lastUpdated": "2024-11-03",
+        "relatedProducts": [
+            15,
+            17,
+            18
+        ],
+        "personalizedSuggestions": [
+            23,
+            24
+        ],
+        "supportContact": "+8801234567902",
+        "isVerified": true,
+        "farmerContact": "+8801234567902",
+        "farmDetails": {
+            "farmName": "গোল্ডেন আলু ফার্ম",
+            "area": "২০ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "৩ ঘণ্টা"
+    },
+    {
+        "id": 20,
+        "availableOffer": false,
+        "coupon": false,
+        "name": "বেল মরিচ",
+        "farmer": "জাহিদুল ইসলাম",
+        "price": 18,
+        "quantity": 95,
+        "unit": "কেজি",
+        "location": "মৌলভীবাজার",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010585/Bell_Pepper-2_euc7ht.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010585/Bell_Pepper-2_euc7ht.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010586/Bell_Pepper-3_muxu2m.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010585/Bell_Pepper_dapqu8.jpg"
+        ],
+        "description": "উজ্জ্বল এবং রঙিন বেল মরিচ।",
+        "rating": 4.5,
+        "reviews": 25,
+        "comments": [
+            {
+                "user": "মাসুম",
+                "userEmail": "masum@gmail.com",
+                "text": "খুব তাজা, দারুণ স্বাদ।",
+                "date": "2024-11-04"
+            }
+        ],
+        "discount": 6,
+        "expiryDate": "2024-12-18",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "রঙিন"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "কোনো রিটার্ন নেই",
+        "isRefundable": false,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 40,
+        "addedDate": "2024-10-22",
+        "lastUpdated": "2024-11-04",
+        "relatedProducts": [
+            15,
+            16,
+            19
+        ],
+        "personalizedSuggestions": [
+            23,
+            24
+        ],
+        "supportContact": "+8801234567903",
+        "isVerified": true,
+        "farmerContact": "+8801234567903",
+        "farmDetails": {
+            "farmName": "পেপার প্যারাডাইস",
+            "area": "৫ একর",
+            "methods": [
+                "হাইড্রোপোনিক্স"
+            ]
+        },
+        "averageResponseTime": "২.৫ ঘণ্টা"
+    },
+    {
+        "id": 21,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "শসা",
+        "farmer": "আমিনুল ইসলাম",
+        "price": 12,
+        "quantity": 150,
+        "unit": "কেজি",
+        "location": "সিলেট",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010599/Cucumber-2_wiw0hp.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010599/Cucumber-2_wiw0hp.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010600/Cucumber-3_vwr69r.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010612/Cucumber._krqyj8.jpg"
+        ],
+        "description": "তাজা শসা, যা আপনার খাবারের জন্য খুবই উপযোগী।",
+        "rating": 4.6,
+        "reviews": 30,
+        "comments": [
+            {
+                "user": "শাহ আলম",
+                "userEmail": "shahalam@gmail.com",
+                "text": "সালাদ এবং স্যান্ডউইচের জন্য উপযুক্ত।",
+                "date": "2024-11-01"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-12-02",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "ক্রাঞ্চি"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "যদি সন্তুষ্ট না হন তবে ৫ দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ আছে",
+        "sold": 110,
+        "addedDate": "2024-10-25",
+        "lastUpdated": "2024-11-02",
+        "relatedProducts": [
+            18,
+            19,
+            20
+        ],
+        "personalizedSuggestions": [
+            23,
+            24
+        ],
+        "supportContact": "+8801234567904",
+        "isVerified": true,
+        "farmerContact": "+8801234567904",
+        "farmDetails": {
+            "farmName": "শসা ফার্ম",
+            "area": "৬ একর",
+            "methods": [
+                "জৈব"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 22,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "পালংশাক",
+        "farmer": "রফিক মিয়া",
+        "price": 20,
+        "quantity": 50,
+        "unit": "কেজি",
+        "location": "সিলেট",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010657/Spinach_lekvb6.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010657/Spinach_lekvb6.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010657/Spinach_lekvb6.jpg"
+        ],
+        "description": "তাজা অর্গানিক পালংশাক।",
+        "rating": 4.5,
+        "reviews": 18,
+        "comments": [
+            {
+                "user": "সামি",
+                "userEmail": "sami@gmail.com",
+                "text": "খুব তাজা ও সবুজ!",
+                "date": "2024-১১-০১"
+            }
+        ],
+        "discount": 10,
+        "expiryDate": "2024-১১-৩০",
+        "category": "vegetables",
+        "tags": [
+            "সবুজ",
+            "অর্গানিক"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি"
+        ],
+        "deliveryTime": "২ দিন",
+        "returnPolicy": "যদি তাজা না হয় তবে ৩ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 30,
+        "addedDate": "2024-১০-২০",
+        "lastUpdated": "2024-১১-১০",
+        "relatedProducts": [
+            15,
+            16
+        ],
+        "personalizedSuggestions": [
+            23,
+            24
+        ],
+        "supportContact": "+8801234567892",
+        "isVerified": true,
+        "farmerContact": "+8801234567892",
+        "farmDetails": {
+            "farmName": "গ্রীন ভ্যালি ফার্ম",
+            "area": "৩.৫ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "১ ঘণ্টা"
+    },
+    {
+        "id": 23,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "বাঁধাকপি",
+        "farmer": "হাসান উদ্দিন",
+        "price": 12,
+        "quantity": 100,
+        "unit": "কেজি",
+        "location": "চট্টগ্রাম",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Cabbage-2_el2lxd.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Cabbage-2_el2lxd.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010588/Cabbage_ryp3e8.jpg"
+        ],
+        "description": "তাজা এবং খাস্তা বাঁধাকপি।",
+        "rating": 4.3,
+        "reviews": 15,
+        "comments": [
+            {
+                "user": "মায়া",
+                "userEmail": "maya@gmail.com",
+                "text": "ভালো মানের!",
+                "date": "2024-১১-০২"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-১২-০৫",
+        "category": "vegetables",
+        "tags": [
+            "খাস্তা",
+            "তাজা"
+        ],
+        "deliveryOptions": [
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১ দিন",
+        "returnPolicy": "৪ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 45,
+        "addedDate": "2024-১০-১৮",
+        "lastUpdated": "2024-১১-০৮",
+        "relatedProducts": [
+            18,
+            19
+        ],
+        "personalizedSuggestions": [
+            24,
+            25
+        ],
+        "supportContact": "+8801234567893",
+        "isVerified": true,
+        "farmerContact": "+8801234567893",
+        "farmDetails": {
+            "farmName": "ফ্রেশ প্রোডিউস কো.",
+            "area": "৫ একর",
+            "methods": [
+                "হাইব্রিড"
+            ]
+        },
+        "averageResponseTime": "৩০ মিনিট"
+    },
+    {
+        "id": 24,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "গাজর",
+        "farmer": "ফাতেমা খাতুন",
+        "price": 25,
+        "quantity": 80,
+        "unit": "কেজি",
+        "location": "বরিশাল",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010593/Carrots-3_hnnkzt.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010592/Carrots-2_gg9hkm.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010593/Carrots-3_hnnkzt.jpg"
+        ],
+        "description": "উজ্জ্বল এবং খাস্তা গাজর।",
+        "rating": 4.6,
+        "reviews": 22,
+        "comments": [
+            {
+                "user": "তারিক",
+                "userEmail": "tariq@gmail.com",
+                "text": "সালাদে perfect!",
+                "date": "2024-১১-০৩"
+            }
+        ],
+        "discount": 7,
+        "expiryDate": "2024-১২-১০",
+        "category": "vegetables",
+        "tags": [
+            "খাস্তা",
+            "উজ্জ্বল"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি"
+        ],
+        "deliveryTime": "২-৩ দিন",
+        "returnPolicy": "৫ দিনের মধ্যে ফেরত দিন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 55,
+        "addedDate": "2024-১০-২২",
+        "lastUpdated": "2024-১১-১২",
+        "relatedProducts": [
+            20,
+            21
+        ],
+        "personalizedSuggestions": [
+            25,
+            26
+        ],
+        "supportContact": "+8801234567894",
+        "isVerified": true,
+        "farmerContact": "+8801234567894",
+        "farmDetails": {
+            "farmName": "হেলথি হারভেস্ট",
+            "area": "৪ একর",
+            "methods": [
+                "পারমাচিক"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 25,
+        "availableOffer": true,
+        "coupon": true,
+        "name": "সবুজ মটর",
+        "farmer": "আয়েশা বেগম",
+        "price": 30,
+        "quantity": 60,
+        "unit": "কেজি",
+        "location": "গাজীপুর",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010608/Green_Peas-2_sx1fty.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010608/Green_Peas-2_sx1fty.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010606/Green_Beans-2_sjlxwz.jpg"
+        ],
+        "description": "মিষ্টি এবং কোমল সবুজ মটর।",
+        "rating": 4.7,
+        "reviews": 20,
+        "comments": [
+            {
+                "user": "রিমা",
+                "userEmail": "rima@gmail.com",
+                "text": "খুব তাজা এবং সুস্বাদু!",
+                "date": "2024-11-06"
+            }
+        ],
+        "discount": 8,
+        "expiryDate": "2024-12-20",
+        "category": "vegetables",
+        "tags": [
+            "মিষ্টি",
+            "কোমল"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি"
+        ],
+        "deliveryTime": "2 দিন",
+        "returnPolicy": "4 দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 35,
+        "addedDate": "2024-10-25",
+        "lastUpdated": "2024-11-14",
+        "relatedProducts": [
+            20,
+            24
+        ],
+        "personalizedSuggestions": [
+            26,
+            27
+        ],
+        "supportContact": "+8801234567895",
+        "isVerified": true,
+        "farmerContact": "+8801234567895",
+        "farmDetails": {
+            "farmName": "এভারগ্রিন ফার্মস",
+            "area": "6 একর",
+            "methods": [
+                "জৈবিক"
+            ]
+        },
+        "averageResponseTime": "1.5 ঘণ্টা"
+    },
+    {
+        "id": 26,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "আলু",
+        "farmer": "নূরুল ইসলাম",
+        "price": 15,
+        "quantity": 150,
+        "unit": "কেজি",
+        "location": "যশোর",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-3_syd9lx.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-3_syd9lx.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/Potato-2_dixxse.jpg"
+        ],
+        "description": "তাজা এবং বহুমুখী আলু।",
+        "rating": 4.2,
+        "reviews": 25,
+        "comments": [
+            {
+                "user": "ফারহান",
+                "userEmail": "farhan@gmail.com",
+                "text": "রান্নার জন্য দুর্দান্ত।",
+                "date": "2024-11-07"
+            }
+        ],
+        "discount": 5,
+        "expiryDate": "2024-12-18",
+        "category": "vegetables",
+        "tags": [
+            "বহুমুখী",
+            "পুষ্টিকর"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি",
+            "পিক-আপ"
+        ],
+        "deliveryTime": "1-2 দিন",
+        "returnPolicy": "3 দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 90,
+        "addedDate": "2024-10-24",
+        "lastUpdated": "2024-11-13",
+        "relatedProducts": [
+            22,
+            23
+        ],
+        "personalizedSuggestions": [
+            27,
+            28
+        ],
+        "supportContact": "+8801234567896",
+        "isVerified": true,
+        "farmerContact": "+8801234567896",
+        "farmDetails": {
+            "farmName": "গোল্ডেন রুটস",
+            "area": "10 একর",
+            "methods": [
+                "হাইব্রিড"
+            ]
+        },
+        "averageResponseTime": "2 ঘণ্টা"
+    },
+    {
+        "id": 27,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "টমেটো",
+        "farmer": "শামীমা আক্তার",
+        "price": 28,
+        "quantity": 90,
+        "unit": "কেজি",
+        "location": "বগুরা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010643/Tomato-2_f7b1k7.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010643/Tomato-2_f7b1k7.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010634/Tomato4_cn1m2e.jpg"
+        ],
+        "description": "রসালো এবং পাকা টমেটো।",
+        "rating": 4.6,
+        "reviews": 18,
+        "comments": [
+            {
+                "user": "রহিম",
+                "userEmail": "rahim@gmail.com",
+                "text": "পাকা এবং রসালো!",
+                "date": "2024-11-08"
+            }
+        ],
+        "discount": 7,
+        "expiryDate": "2024-12-25",
+        "category": "vegetables",
+        "tags": [
+            "পাকা",
+            "রসালো"
+        ],
+        "deliveryOptions": [
+            "হোম ডেলিভারি"
+        ],
+        "deliveryTime": "1 দিন",
+        "returnPolicy": "2 দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টক এ রয়েছে",
+        "sold": 50,
+        "addedDate": "2024-10-27",
+        "lastUpdated": "2024-11-15",
+        "relatedProducts": [
+            24,
+            26
+        ],
+        "personalizedSuggestions": [
+            28,
+            29
+        ],
+        "supportContact": "+8801234567897",
+        "isVerified": true,
+        "farmerContact": "+8801234567897",
+        "farmDetails": {
+            "farmName": "টমেটো গার্ডেন",
+            "area": "8 একর",
+            "methods": [
+                "প্রথাগত"
+            ]
+        },
+        "averageResponseTime": "1 ঘণ্টা"
+    },
+    {
+        "id": 28,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "পেঁয়াজ",
+        "farmer": "বাবুল হোসেন",
+        "price": 22,
+        "quantity": 200,
+        "unit": "কেজি",
+        "location": "খুলনা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732024520/onion-6_ybbodw.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732024520/onion-6_ybbodw.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732024522/onion-5_gcpn6d.jpg"
+        ],
+        "description": "তীক্ষ্ণ এবং স্বাদযুক্ত পেঁয়াজ।",
+        "rating": 4.3,
+        "reviews": 22,
+        "comments": [
+            {
+                "user": "কামাল",
+                "userEmail": "kamal@gmail.com",
+                "text": "উচ্চমানের পেঁয়াজ।",
+                "date": "2024-11-09"
+            }
+        ],
+        "discount": 6,
+        "expiryDate": "2024-12-30",
+        "category": "vegetables",
+        "tags": [
+            "তীক্ষ্ণ",
+            "স্বাদযুক্ত"
+        ],
+        "deliveryOptions": [
+            "বাড়ি ডেলিভারি"
+        ],
+        "deliveryTime": "১-২ দিন",
+        "returnPolicy": "৩ দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 120,
+        "addedDate": "2024-10-26",
+        "lastUpdated": "2024-11-14",
+        "relatedProducts": [
+            25,
+            27
+        ],
+        "personalizedSuggestions": [
+            29,
+            30
+        ],
+        "supportContact": "+8801234567898",
+        "isVerified": true,
+        "farmerContact": "+8801234567898",
+        "farmDetails": {
+            "farmName": "ফ্রেশ পেঁয়াজ ক্ষেত",
+            "area": "১২ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "১.৫ ঘণ্টা"
+    },
+    {
+        "id": 29,
+        "availableOffer": false,
+        "coupon": true,
+        "name": "রসুন",
+        "farmer": "আব্দুল করিম",
+        "price": 40,
+        "quantity": 70,
+        "unit": "কেজি",
+        "location": "রাজশাহী",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010601/Garlic_owqh7m.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010601/Garlic_owqh7m.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010614/Garlic-4_qypky8.jpg"
+        ],
+        "description": "শক্ত এবং সুগন্ধি রসুন।",
+        "rating": 4.8,
+        "reviews": 30,
+        "comments": [
+            {
+                "user": "নাফিসা",
+                "userEmail": "nafisa@gmail.com",
+                "text": "প্রিমিয়াম মানের রসুন।",
+                "date": "2024-11-10"
+            }
+        ],
+        "discount": 9,
+        "expiryDate": "2025-01-10",
+        "category": "spices",
+        "tags": [
+            "সুগন্ধি",
+            "প্রিমিয়াম"
+        ],
+        "deliveryOptions": [
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১ দিন",
+        "returnPolicy": "২ দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 40,
+        "addedDate": "2024-10-28",
+        "lastUpdated": "2024-11-16",
+        "relatedProducts": [
+            28,
+            30
+        ],
+        "personalizedSuggestions": [
+            30,
+            31
+        ],
+        "supportContact": "+8801234567899",
+        "isVerified": true,
+        "farmerContact": "+8801234567899",
+        "farmDetails": {
+            "farmName": "রসুন হ্যাভেন",
+            "area": "৭ একর",
+            "methods": [
+                "প্রথাগত"
+            ]
+        },
+        "averageResponseTime": "২ ঘণ্টা"
+    },
+    {
+        "id": 30,
+        "availableOffer": true,
+        "coupon": false,
+        "name": "ফুলকপি",
+        "farmer": "জামাল উদ্দিন",
+        "price": 18,
+        "quantity": 75,
+        "unit": "কেজি",
+        "location": "পাবনা",
+        "image": "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010594/Cauliflower-2_s1dmrd.jpg",
+        "gallery": [
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010594/Cauliflower-2_s1dmrd.jpg",
+            "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010596/Cauliflower-3_gbej3b.jpg"
+        ],
+        "description": "তাজা এবং সুস্বাদু ফুলকপি।",
+        "rating": 4.4,
+        "reviews": 14,
+        "comments": [
+            {
+                "user": "নায়ীম",
+                "userEmail": "nayeem@gmail.com",
+                "text": "খুবই তাজা!",
+                "date": "2024-11-05"
+            }
+        ],
+        "discount": 6,
+        "expiryDate": "2024-12-15",
+        "category": "vegetables",
+        "tags": [
+            "তাজা",
+            "সুস্বাদু"
+        ],
+        "deliveryOptions": [
+            "পিক-আপ"
+        ],
+        "deliveryTime": "১ দিন",
+        "returnPolicy": "৩ দিনের মধ্যে রিটার্ন করুন",
+        "isRefundable": true,
+        "stockStatus": "স্টকে আছে",
+        "sold": 40,
+        "addedDate": "2024-10-28",
+        "lastUpdated": "2024-11-15",
+        "relatedProducts": [
+            27,
+            29
+        ],
+        "personalizedSuggestions": [
+            29,
+            31
+        ],
+        "supportContact": "+8801234567890",
+        "isVerified": true,
+        "farmerContact": "+8801234567890",
+        "farmDetails": {
+            "farmName": "গ্রিন ভ্যালি ফার্ম",
+            "area": "৫ একর",
+            "methods": [
+                "অর্গানিক"
+            ]
+        },
+        "averageResponseTime": "১.৫ ঘণ্টা"
+    }
+]
