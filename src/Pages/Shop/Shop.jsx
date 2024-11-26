@@ -5,6 +5,9 @@ import ActionBar from '../../components/ShopComponent/ActionBar';
 import { useState } from 'react';
 import { RxCrossCircled } from 'react-icons/rx';
 import Aside from '../../components/ShopComponent/Aside';
+import { useQuery } from '@tanstack/react-query';
+import useAxiosPublic from '../../CustomHocks/useAxiosPublick';
+import ProductCard from '../../components/ShopComponent/ProductCard';
 
 const path = ['/', '/shop', '/shop']
 const pathName = ['Home', 'Shop', 'Shop']
@@ -13,6 +16,16 @@ const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
     const [sortValue, setSortValue] = useState('')
     const [openDrawer, setDrawer] = useState(false)
+    const axiosPublic = useAxiosPublic()
+
+    const { data } = useQuery({
+        queryKey: ['ProductData'],
+        queryFn: async () => {
+            const res = await axiosPublic.get(`./productBangla.json`);
+            return res.data;
+        }
+    });
+
 
 
     return (
@@ -29,7 +42,7 @@ const Shop = () => {
                     <aside className={` absolute ${openDrawer ? 'w-6/12' : ' w-0'} transition-all duration-500 top-0 left-0  bg-white min-h-screen overflow-y-scroll pb-5 `}>
                         <button onClick={() => setDrawer(false)} className=' absolute top-2 right-3 text-2xl font-bold text-black  '><RxCrossCircled /></button>
                         <div className=" absolute top-10 left-0 w-full bg-green-600">
-                        <Aside></Aside>
+                            <Aside></Aside>
 
 
                         </div>
@@ -51,7 +64,12 @@ const Shop = () => {
                         ></ActionBar>
 
 
-                        <div>
+                        <div className=' grid grid-cols-3 gap-4'>
+                            {
+                                data?.map((item, index) => <div key={index}>
+                                    <ProductCard data={item} ></ProductCard>
+                                </div>)
+                            }
 
                         </div>
 

@@ -8,3 +8,18 @@ max-width: 1220px;
 margin: auto;
 
 }
+
+.react-stars span {
+    pointer-events: none;
+  }
+
+  .cart-btn{
+
+    border-radius: 100%;
+    background-color: rgb(175, 181, 175);
+    padding: 9px;
+    color: black;
+  }
+  .cart-btn:hover{
+    background-color: #f5be05;
+  }

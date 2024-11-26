@@ -16,7 +16,7 @@
             "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010669/tomato_qjsrwb.jpg"
         ],
         "description": "তাজা ও জৈব টমেটো।",
-        "rating": 4.5,
+        "rating": 2.5,
         "reviews": 12,
         "comments": [
             {
@@ -83,7 +83,7 @@
             "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010615/Potato-3_syd9lx.jpg"
         ],
         "description": "তাজা এবং উচ্চমানের আলু।",
-        "rating": 4.7,
+        "rating": 3.7,
         "reviews": 8,
         "comments": [
             {
@@ -148,7 +148,7 @@
             "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010605/carrot_hfhpqq.jpg "
         ],
         "description": "তাজা এবং মচমচে গাজর।",
-        "rating": 4.3,
+        "rating": 3,
         "reviews": 15,
         "comments": [
             {
@@ -280,7 +280,7 @@
             "https://res.cloudinary.com/dwtugdf8j/image/upload/v1732010618/Spinach-3_tad6w7.jpg"
         ],
         "description": "তাজা এবং অর্গানিক পালং শাক।",
-        "rating": 4.6,
+        "rating": 5,
         "reviews": 25,
         "comments": [
             {
