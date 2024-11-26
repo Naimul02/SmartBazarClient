@@ -2,11 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#f5be05", 
+      },
+    },
   },
-
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
-  
-
 };
