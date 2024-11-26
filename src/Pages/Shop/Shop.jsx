@@ -8,6 +8,7 @@ import Aside from '../../components/ShopComponent/Aside';
 import { useQuery } from '@tanstack/react-query';
 import useAxiosPublic from '../../CustomHocks/useAxiosPublick';
 import ProductCard from '../../components/ShopComponent/ProductCard';
+import PaginationButton from '../../components/SharedComponent/PaginationButton';
 
 const path = ['/', '/shop', '/shop']
 const pathName = ['Home', 'Shop', 'Shop']
@@ -16,7 +17,10 @@ const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
     const [sortValue, setSortValue] = useState('')
     const [openDrawer, setDrawer] = useState(false)
+    const [currentPage,setPage]= useState(1)
     const axiosPublic = useAxiosPublic()
+
+    const totalPages= 5
 
     const { data } = useQuery({
         queryKey: ['ProductData'],
@@ -72,6 +76,8 @@ const Shop = () => {
                             }
 
                         </div>
+
+                        <PaginationButton currentPage={currentPage} setPage={setPage} totalPages={totalPages}  ></PaginationButton>
 
                     </div>
 
