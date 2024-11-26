@@ -1,9 +1,13 @@
+import CategoryFilter from "./CategoryFilter";
 
 
 const Aside = () => {
     return (
-        <div className=" bg-green-500" >
-            asider
+        <div className=" " >
+          
+               <CategoryFilter></CategoryFilter>
+           
+         
 
         </div>
     );

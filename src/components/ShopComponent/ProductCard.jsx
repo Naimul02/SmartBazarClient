@@ -8,11 +8,12 @@ import { FaRegEye } from 'react-icons/fa';
 
 
 
-const ProductCard = ({ data }) => {
-    console.log(data);
+const ProductCard = ({ data,layOutView }) => {
+    
     return (
-        <div className='  bg-slate-50 p-2 rounded-sm h-64  text-black group'>
-            <div className='  relative h-3/6 overflow-hidden flex  justify-center rounded-sm group/image  '>
+        <div className={`  bg-slate-50 p-2 rounded-sm   flex text-black group ${layOutView==='grid'?" flex-col h-64":' flex-row h-40'}`}>
+
+            <div className={`  relative  ${layOutView==='grid'?" h-3/6":'w-4/12'} overflow-hidden flex  justify-center rounded-sm group/image `}>
                 <img className=' h-full w-ful group-hover/image:scale-110  transition-transform duration-300' src={data?.image} alt=" product Photo" />
                 <div className='absolute flex gap-3 -bottom-12 group-hover:bottom-4 duration-500 transition-all '>
                     <button className=' cart-btn'><CiHeart /></button>
@@ -20,9 +21,10 @@ const ProductCard = ({ data }) => {
                     <button className=' cart-btn'><FaRegEye /></button>
                 </div>
             </div>
+
             <div className="p-3">
                 <h1 className=" text-sm mt-3 ">{data?.name} - <span className=' text-xs text-gray-800'>(১ {data?.unit})</span></h1>
-                <p className=' tex'>দাম: <span className='  font-semibold'> {data?.price} </span> টাকা </p>
+                <p className=' '> দাম: <span className='  font-semibold'> {data?.price} </span> টাকা </p>
                 <div className=' flex items-center justify-between'>
                     <ReactStars
                         count={5}
@@ -39,6 +41,7 @@ const ProductCard = ({ data }) => {
 
 ProductCard.propTypes = {
     data: PropTypes.object.isRequired,
+    layOutView: PropTypes.string.isRequired,
 
 };
 
