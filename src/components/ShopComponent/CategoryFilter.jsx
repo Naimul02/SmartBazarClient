@@ -16,7 +16,7 @@ const CategoryFilter = () => {
   };
 
   return (
-    <div className="text-black">
+    <div className="text-black  border-b pb-4">
       <h1 className="font-semibold text-lg mb-3">Categories</h1>
       <div className="flex flex-col gap-4 p-1">
         {/* "All" Category */}

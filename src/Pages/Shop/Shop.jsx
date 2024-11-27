@@ -16,9 +16,13 @@ const pathName = ['Home', 'Shop', 'Shop']
 const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
     const [sortValue, setSortValue] = useState('')
+    const [maxPrice , setMaxPrice]= useState(1000)
+    const [minPrice , setMinPrice]= useState(0)
     const [openDrawer, setDrawer] = useState(false)
     const [currentPage, setPage] = useState(1)
     const axiosPublic = useAxiosPublic()
+
+
 
     const totalPages = 5
 
@@ -30,7 +34,7 @@ const Shop = () => {
         }
     });
 
-
+console.log(maxPrice, minPrice);
 
     return (
         <div className='bg-white  '>
@@ -41,7 +45,10 @@ const Shop = () => {
                 <div className='grid gap-2 grid-cols-12 w-full p-3 relative '>
 
                     <aside className=' lg:col-span-3 md:col-span-3 md:flex lg:flex hidden p-4 bb '>
-                        <Aside></Aside>
+                        <Aside
+                         setMaxPrice={setMaxPrice}
+                         setMinPrice={setMinPrice}
+                         ></Aside>
                     </aside>
 
                     {/* aside   Start */}
