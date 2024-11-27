@@ -40,7 +40,7 @@ const PriceFilter = ({ setMinPrice, setMaxPrice }) => {
     };
 
     return (
-        <div className=" text-black my-5 space-y-3">
+        <div className=" text-black my-5 space-y-3 border-b-2 pb-4">
             <h2 className=' border-black text-lg font-semibold '> Price</h2>
             <div className=' flex items-center justify-between py-3'>
                 <p className="text-sm ">সর্বোচ্চ দাম ১০০০ টাকা </p>

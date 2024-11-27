@@ -44,7 +44,7 @@ console.log(maxPrice, minPrice);
             <div className="max-w">
                 <div className='grid gap-2 grid-cols-12 w-full p-3 relative '>
 
-                    <aside className=' lg:col-span-3 md:col-span-3 md:flex lg:flex hidden p-4 bb '>
+                    <aside className=' lg:col-span-3 md:col-span-3 md:flex lg:flex hidden p-4 '>
                         <Aside
                          setMaxPrice={setMaxPrice}
                          setMinPrice={setMinPrice}
