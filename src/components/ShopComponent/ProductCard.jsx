@@ -11,12 +11,12 @@ import { FaRegEye } from 'react-icons/fa';
 const ProductCard = ({ data, layOutView }) => {
 
     return (
-        <div className={`  bg-slate-50 p-2 rounded-sm   flex text-black group ${layOutView === 'grid' ? " flex-col h-64" : ' flex-row h-40'}`}>
+        <div className={`  bg-slate-50 p-2 rounded-sm   flex text-black group ${layOutView === 'grid' ? " flex-col h-64" : ' lg:flex-row md:flex-row flex-col lg:h-40 md:h-40 h-64'}`}>
 
-            <div className={`  relative  ${layOutView === 'grid' ? " h-3/6" : 'w-4/12'} overflow-hidden flex  justify-center rounded-sm group/image `}>
+            <div className={`  relative  ${layOutView === 'grid' ? "  h-3/6 " : 'lg:w-4/12 md:w-4/12 w-full  '} overflow-hidden flex  justify-center rounded-sm group/image `}>
                 {
                     data?.availableOffer && (<p
-                        className='bg-red-600 absolute top-1 right-1 p-5 rotate-45 z-40 text-white font-bold'
+                        className='bg-red-600 absolute top-1 right-1 p-5 rotate-45 z-30 text-white font-bold'
                         style={{ clipPath: 'polygon(50% 0%, 70% 29%, 98% 35%, 79% 58%, 79% 91%, 53% 75%, 21% 91%, 23% 58%, 2% 35%, 31% 28%)' }}
                     >{data?.discount}% </p>)
                 }
