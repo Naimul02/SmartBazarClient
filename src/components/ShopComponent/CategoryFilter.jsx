@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+
+import PropTypes from "prop-types";
 
 // Map English categories to Bengali categories
 const categoriesFromDatabase = [
@@ -7,8 +8,8 @@ const categoriesFromDatabase = [
   { english: "Spices", bengali: "মশলা " },
 ];
 
-const CategoryFilter = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+const CategoryFilter = ({setSelectedCategory,selectedCategory}) => {
+  
 
   // Handle category selection with the checkbox
   const filterCategories = (category) => {
@@ -51,6 +52,10 @@ const CategoryFilter = () => {
       </div>
     </div>
   );
+};
+CategoryFilter.propTypes = {
+  selectedCategory: PropTypes.string, 
+  setSelectedCategory: PropTypes.func.isRequired, 
 };
 
 export default CategoryFilter;

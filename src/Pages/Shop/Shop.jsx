@@ -9,20 +9,26 @@ import { useQuery } from '@tanstack/react-query';
 import useAxiosPublic from '../../CustomHocks/useAxiosPublick';
 import ProductCard from '../../components/ShopComponent/ProductCard';
 import PaginationButton from '../../components/SharedComponent/PaginationButton';
+import { Helmet } from 'react-helmet';
 
 const path = ['/', '/shop', '/shop']
 const pathName = ['Home', 'Shop', 'Shop']
 
 const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
+
     const [sortValue, setSortValue] = useState('')
     const [maxPrice , setMaxPrice]= useState(1000)
     const [minPrice , setMinPrice]= useState(0)
+    const [selectedLocation, setLocation] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState(null);
+
+
     const [openDrawer, setDrawer] = useState(false)
     const [currentPage, setPage] = useState(1)
     const axiosPublic = useAxiosPublic()
 
-
+console.log(maxPrice,minPrice,sortValue,selectedLocation,selectedCategory);
 
     const totalPages = 5
 
@@ -34,10 +40,14 @@ const Shop = () => {
         }
     });
 
-console.log(maxPrice, minPrice);
+
 
     return (
         <div className='bg-white  '>
+             <Helmet>
+                <title>Shop|| SmartBazar </title>
+            </Helmet>
+
             <div>
                 <PageHeading path={path} pathName={pathName}></PageHeading>
             </div>
@@ -48,6 +58,10 @@ console.log(maxPrice, minPrice);
                         <Aside
                          setMaxPrice={setMaxPrice}
                          setMinPrice={setMinPrice}
+                         selectedLocation={selectedLocation}
+                         setLocation={setLocation}
+                         selectedCategory={selectedCategory}
+                         setSelectedCategory={setSelectedCategory}
                          ></Aside>
                     </aside>
 

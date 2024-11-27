@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { GrPowerReset } from "react-icons/gr";
 
-const LocationFilter = () => {
-    const [selectedLocation, setLocation] = useState(null);
+import { GrPowerReset } from "react-icons/gr";
+import PropTypes from "prop-types";
+const LocationFilter = ({selectedLocation,setLocation}) => {
+   
 
     const convertToBengaliNumber = (number) => {
         const englishToBengaliDigits = {
@@ -61,6 +61,11 @@ const LocationFilter = () => {
             </div>
         </div>
     );
+};
+
+LocationFilter.propTypes = {
+    selectedLocation: PropTypes.string, 
+    setLocation: PropTypes.func.isRequired, 
 };
 
 const bangladeshDistricts = [
