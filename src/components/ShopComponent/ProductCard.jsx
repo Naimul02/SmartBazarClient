@@ -8,12 +8,18 @@ import { FaRegEye } from 'react-icons/fa';
 
 
 
-const ProductCard = ({ data,layOutView }) => {
-    
-    return (
-        <div className={`  bg-slate-50 p-2 rounded-sm   flex text-black group ${layOutView==='grid'?" flex-col h-64":' flex-row h-40'}`}>
+const ProductCard = ({ data, layOutView }) => {
 
-            <div className={`  relative  ${layOutView==='grid'?" h-3/6":'w-4/12'} overflow-hidden flex  justify-center rounded-sm group/image `}>
+    return (
+        <div className={`  bg-slate-50 p-2 rounded-sm   flex text-black group ${layOutView === 'grid' ? " flex-col h-64" : ' flex-row h-40'}`}>
+
+            <div className={`  relative  ${layOutView === 'grid' ? " h-3/6" : 'w-4/12'} overflow-hidden flex  justify-center rounded-sm group/image `}>
+                {
+                    data?.availableOffer && (<p
+                        className='bg-red-600 absolute top-1 right-1 p-5 rotate-45 z-40 text-white font-bold'
+                        style={{ clipPath: 'polygon(50% 0%, 70% 29%, 98% 35%, 79% 58%, 79% 91%, 53% 75%, 21% 91%, 23% 58%, 2% 35%, 31% 28%)' }}
+                    >{data?.discount}% </p>)
+                }
                 <img className=' h-full w-ful group-hover/image:scale-110  transition-transform duration-300' src={data?.image} alt=" product Photo" />
                 <div className='absolute flex gap-3 -bottom-12 group-hover:bottom-4 duration-500 transition-all '>
                     <button className=' cart-btn'><CiHeart /></button>
@@ -24,7 +30,26 @@ const ProductCard = ({ data,layOutView }) => {
 
             <div className="p-3">
                 <h1 className=" text-sm mt-3 ">{data?.name} - <span className=' text-xs text-gray-800'>(১ {data?.unit})</span></h1>
-                <p className=' '> দাম: <span className='  font-semibold'> {data?.price} </span> টাকা </p>
+                {
+                    data?.availableOffer ? (
+                        <div className="flex items-center space-x-2">
+                            
+                            <p>
+                                দাম: <span className="font-semibold text-red-600">
+                                    {(data?.price - (data?.price * data?.discount) / 100).toFixed(2)}
+                                </span> টাকা
+                            </p>
+                         
+                            <p className="line-through text-gray-500">
+                                {data?.price} টাকা
+                            </p>
+                        </div>
+                    ) : (
+                        <p>
+                            দাম: <span className="font-semibold">{data?.price}</span> টাকা
+                        </p>
+                    )
+                }
                 <div className=' flex items-center justify-between'>
                     <ReactStars
                         count={5}
