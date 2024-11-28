@@ -4,6 +4,7 @@ import ReactStars from "react-rating-stars-component";
 import { CiHeart } from 'react-icons/ci';
 import { SlHandbag } from 'react-icons/sl';
 import { FaRegEye } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,7 +25,7 @@ const ProductCard = ({ data, layOutView }) => {
                 <div className='absolute flex gap-3 -bottom-12 group-hover:bottom-4 duration-500 transition-all '>
                     <button className=' cart-btn'><CiHeart /></button>
                     <button className=' cart-btn '><SlHandbag /></button>
-                    <button className=' cart-btn'><FaRegEye /></button>
+                   <Link to={`/product/details/${data?.id} `}> <button className=' cart-btn'><FaRegEye /></button></Link>
                 </div>
             </div>
 

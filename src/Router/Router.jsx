@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import SingUp from "../Pages/SingUp/SingUp";
 import SingIn from "../Pages/SingIn/SingIn";
 import Shop from "../Pages/Shop/Shop";
+import ProductDetails from "../components/ShopComponent/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop>
+      },
+      {
+        path: "/product/details/:id",
+        element: <ProductDetails></ProductDetails>
       },
       {
         path: "/singup",

@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { RxCrossCircled } from 'react-icons/rx';
 import Aside from '../../components/ShopComponent/Aside';
 import { useQuery } from '@tanstack/react-query';
-import useAxiosPublic from '../../CustomHocks/useAxiosPublick';
+import useAxiosPublic from '../../CustomHocks/useAxiosPublic';
 import ProductCard from '../../components/ShopComponent/ProductCard';
 import PaginationButton from '../../components/SharedComponent/PaginationButton';
 import { Helmet } from 'react-helmet';
