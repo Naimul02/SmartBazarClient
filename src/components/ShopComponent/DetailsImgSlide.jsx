@@ -28,7 +28,7 @@ const DetailsImgSlide = ({ images }) => {
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
-                className="mySwiper2 bg-gray-50 p-3 w-full bb"
+                className="mySwiper2 bg-gray-50 px-3 w-full "
             >
                 {
                     images?.map((item, i) => <SwiperSlide key={i}>

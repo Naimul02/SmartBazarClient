@@ -5,11 +5,12 @@ import PageHeading from '../SharedComponent/PageHeading';
 import { Helmet } from 'react-helmet';
 
 import ReactStars from "react-rating-stars-component";
-import { TbPointFilled } from 'react-icons/tb';
+import { TbPointFilled, TbTruckDelivery } from 'react-icons/tb';
 import { AiOutlineMinusCircle } from 'react-icons/ai';
 import { FiPlusCircle } from 'react-icons/fi';
 import { CiHeart } from 'react-icons/ci';
 import DetailsImgSlide from './DetailsImgSlide';
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 
 
 
@@ -17,6 +18,7 @@ const ProductDetails = () => {
     const { id } = useParams()
     const { product, isLoading, error } = useGetProductDetails(id)
     const [quantity,setQuantity]= useState(1)
+    const [openComment , setOpenComment ] = useState( false)
 
     const path = ['/', '/shop', `/product/details/${id}`]
     const pathName = ['Home', 'Shop', 'Product Details']
@@ -29,14 +31,15 @@ const ProductDetails = () => {
     return (
         <div className=' bg-white '>
             <PageHeading path={path} pathName={pathName} ></PageHeading>
-            <div className='max-w'>
-                <div className=' grid grid-cols-12 gap-3 w-full  py-5 '>
-                    <div className='  col-span-6  '>
+            <div className='max-w p-4'>
+                <div className=' grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 gap-3 w-full  py-5 '>
+                    <div className='  col-span-6 '>
                     <DetailsImgSlide images= {product?.gallery || []} ></DetailsImgSlide>
                     </div>
-                    <div className=' col-span-6 text-black   flex flex-col text-sm  space-y-2 mt-3'>
+
+                    <div className=' col-span-6 text-black   flex flex-col text-sm  space-y-2 mt-3 p-4'>
                         <div className="border-b-2 pb-3 flex gap-3">
-                            <h1 className="font-semibold "> {product.name}  <span className=' font-normal text-sm '> (১ {product?.unit}) </span></h1>
+                            <h1 className="font-semibold text-xl "> {product.name}  <span className=' font-normal text-sm '> (১ {product?.unit}) </span></h1>
                             <p className=' flex  gap-2 flex-row items-center text-xs '>{product.quantity - product?.sold > 0 ? <span className=' flex  gap-2 flex-row items-center '><span className=' text-green-600'><TbPointFilled /></span> স্টকে আছে</span> : <span className=' flex  gap-2 flex-row items-center '><span className=' text-green-600'><TbPointFilled /></span> স্টকে নাই</span>}</p>
 
                         </div>
@@ -103,11 +106,36 @@ const ProductDetails = () => {
                                 <button onClick={()=> availableProduct>quantity&& setQuantity(quantity+1)} className='hover:text-red-500 ' ><FiPlusCircle /> </button>
                             </div>
                         </div>
-                        <button className=' flex items-center gap-3 group text-lg font-semibold '><CiHeart className='group-hover:text-red-600' />  Wishlist </button>
+                        <button className=' flex items-center gap-3 group text-lg font-semibold  '><CiHeart className='group-hover:text-red-600' />  Wishlist </button>
 
                         <div className=' flex gap-4 py-3  w-full'>
                             <button className=' rounded-full p-3 bg-primary hover:bg-yellow-500 px-4 '>Add to Cart </button>
                             <button className=' rounded-full p-3 bg-gray-800 hover:bg-gray-950 px-4  text-white'>Bye It Now </button>
+                        </div>
+                        <div >
+                            <h1 className=" font-semibold text-xl border-b-2 pb-3 my-3">ডেলিভারি অপশনস:</h1>
+                            {
+                                product?.deliveryOptions?.map((option,i)=>
+                                <p key={option+i}
+                                className='flex items-center gap-4 mb-1'
+                                ><TbTruckDelivery /> 
+                                <span
+                                className='bg-gray-500 bg-opacity-45 px-5 pl-7 '
+                                style={{clipPath:' polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%)'}}
+                                >
+                                {option}
+                                </span>
+                                </p>)
+                            }
+                        </div>
+                        <div className=" border-t-2  my-4 py-3">
+                            <div onClick={()=> setOpenComment(!openComment)} className=' flex items-center justify-between py-3'>
+                                <h1 className=' text-xl font-semibold'> Comments ({product?.comments?.length})</h1>
+                                 <button className='text-xl' >{openComment?<MdKeyboardArrowUp />:<MdKeyboardArrowDown />}</button>
+                            </div>
+                            <div className={` border-t-2 ${openComment?'h-52':'h-0'} transition-all duration-300`}>
+
+                            </div>
                         </div>
                     </div>
 

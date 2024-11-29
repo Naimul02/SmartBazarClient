@@ -12,7 +12,7 @@ import PaginationButton from '../../components/SharedComponent/PaginationButton'
 import { Helmet } from 'react-helmet';
 
 const path = ['/', '/shop']
-const pathName = ['Home', 'Shop', ]
+const pathName = ['Home', 'Shop',]
 
 const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
@@ -31,6 +31,20 @@ const Shop = () => {
     console.log(maxPrice, minPrice, sortValue, selectedLocation, selectedCategory);
 
     const totalPages = 5
+
+
+    // const FilterData = {
+    //     location: [
+    //         { name: 'সিলেট', TotalData: 10 },
+    //         { name: 'রাজশাহী', TotalData: 5 },
+    //     ],
+    //     category: [
+    //         { name: 'ফল', totalProduct: 20 },
+    //         { name: 'মশলা', totalProduct: 10 },
+
+    //     ],
+    //     newProduct:20
+    // }
 
     const { data } = useQuery({
         queryKey: ['ProductData'],
@@ -98,7 +112,7 @@ const Shop = () => {
                         ></ActionBar>
 
 
-                        <div className={` grid  ${layOutView === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1'  : ' grid-cols-1'} gap-4`}>
+                        <div className={` grid  ${layOutView === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1' : ' grid-cols-1'} gap-4`}>
                             {
                                 data?.map((item, index) => <div key={index}>
                                     <ProductCard data={item} layOutView={layOutView} ></ProductCard>
