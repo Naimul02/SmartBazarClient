@@ -11,6 +11,7 @@ import { FiPlusCircle } from 'react-icons/fi';
 import { CiHeart } from 'react-icons/ci';
 import DetailsImgSlide from './DetailsImgSlide';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import CommentSection from './CommentSection';
 
 
 
@@ -133,8 +134,8 @@ const ProductDetails = () => {
                                 <h1 className=' text-xl font-semibold'> Comments ({product?.comments?.length})</h1>
                                  <button className='text-xl' >{openComment?<MdKeyboardArrowUp />:<MdKeyboardArrowDown />}</button>
                             </div>
-                            <div className={` border-t-2 ${openComment?'h-52':'h-0'} transition-all duration-300`}>
-
+                            <div className={` border-t-2 overflow-hidden ${openComment?'':'h-0'} transition-all duration-300 `}>
+                                <CommentSection comments={product?.comments ||[]}></CommentSection>
                             </div>
                         </div>
                     </div>
