@@ -2,12 +2,14 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../components/userProvider/userProvider";
 import toast from "react-hot-toast";
+import { FaGoogle } from "react-icons/fa"; // Import the Google icon from react-icons
 
 const Singup = () => {
   const [file, setFile] = useState(null);
   const [error, seterror] = useState("");
 
-  const { creactUser, UpdateUser } = useContext(AuthContext);
+  const { creactUser, UpdateUser, singInWithGoogle } = useContext(AuthContext);
+
   const singUpinPassword = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -19,7 +21,6 @@ const Singup = () => {
     const phoneNumber = form.phoneNumber.value;
     const password = form.password.value;
     console.log(name, email, password, role, photourl, phoneNumber);
-    console.log(email, password, name);
     const data = new FormData();
     data.append("image", photourl);
     fetch(
@@ -31,23 +32,22 @@ const Singup = () => {
     )
       .then((res) => res.json())
       .then((data) => updateProfile(name, data.data.url));
+
     creactUser(email, password)
       .then((result) => {
         const user = result.user;
         console.log(user);
         localStorage.setItem("accessToken", user.accessToken);
-
         form.reset();
         seterror("");
-        //  updateProfiless(name,photourl)
-        //  handlerEmailVarification()
-        toast.success("please chack you Eamil and varification it.");
+        toast.success("Please check your email and verify it.");
       })
       .catch((error) => {
         console.error("error", error);
         seterror(error.message);
       });
   };
+
   const updateProfile = (name, PhotoURl) => {
     const profile = {
       displayName: name,
@@ -57,6 +57,7 @@ const Singup = () => {
       .then(() => {})
       .catch((error) => console.error("error", error));
   };
+
   const handleFileChange = (event) => {
     const selectedFile = event.target.files[0];
     if (selectedFile) {
@@ -64,8 +65,18 @@ const Singup = () => {
     }
   };
 
+  const googleloginHandler = () => {
+    singInWithGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        localStorage.setItem("accessToken", user.accessToken);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
-    <div className="min-h-screen bg-gray-100 pt-10 pb-10  flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gray-100 pt-10 pb-10 flex items-center justify-center px-4">
       <div className="w-full max-w-lg bg-white shadow-lg rounded-lg">
         <div className="p-8">
           <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
@@ -194,6 +205,18 @@ const Singup = () => {
               Sign Up
             </button>
           </form>
+
+          {/* Google Sign-In Button with Google Icon */}
+          <div className="mt-4">
+            <button
+              onClick={googleloginHandler}
+              className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition flex items-center justify-center space-x-2"
+            >
+              {/* Google Icon */}
+              <FaGoogle size={20} />
+              <span>Sign Up with Google</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

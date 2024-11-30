@@ -7,11 +7,13 @@ import {
   signInWithEmailAndPassword,
   signOut,
   updateProfile,
+  signInWithPopup,
+  GoogleAuthProvider,
 } from "firebase/auth";
 import { app } from "../../firebase.config";
 
 export const AuthContext = createContext();
-
+const Provider = new GoogleAuthProvider();
 const auth = getAuth(app);
 const UserProvider = ({ children }) => {
   // eslint-disable-next-line no-unused-vars
@@ -23,6 +25,9 @@ const UserProvider = ({ children }) => {
     return signOut(auth);
   };
 
+  const singInWithGoogle = () => {
+    return signInWithPopup(auth, Provider);
+  };
   // creactUser
   const creactUser = (email, password) => {
     setLoading(true);
@@ -52,6 +57,7 @@ const UserProvider = ({ children }) => {
     UpdateUser,
     loading,
     logIn,
+    singInWithGoogle,
   };
   return (
     <AuthContext.Provider value={authinfo}>{children}</AuthContext.Provider>

@@ -1,9 +1,10 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../components/userProvider/userProvider";
+import { FaGoogle } from "react-icons/fa";
 
 const SignIn = () => {
-  const { logIn } = useContext(AuthContext);
+  const { logIn, singInWithGoogle } = useContext(AuthContext);
   // const location = useLocation();
   // const from = location.state?.from?.pathname || "/";
   const [error, seterror] = useState("");
@@ -33,6 +34,16 @@ const SignIn = () => {
         seterror(error.message);
         console.log("error", error);
       });
+  };
+
+  const googleloginHandler = () => {
+    singInWithGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        localStorage.setItem("accessToken", user.accessToken);
+      })
+      .catch((error) => console.log(error));
   };
 
   return (
@@ -84,12 +95,21 @@ const SignIn = () => {
             <p className="text-red-500 text-center mb-3">{error}</p>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition"
+              className="w-full py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition"
             >
-              Log In
+              Sign In
             </button>
           </form>
-
+          <div className="mt-4">
+            <button
+              onClick={googleloginHandler}
+              className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition flex items-center justify-center space-x-2"
+            >
+              {/* Google Icon */}
+              <FaGoogle size={20} />
+              <span>Sign Up with Google</span>
+            </button>
+          </div>
           <p className="text-center text-sm text-gray-500 mt-6">
             Don’t have an account?{" "}
             <Link to="/signup" className="text-blue-500 hover:underline">
