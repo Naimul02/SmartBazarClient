@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../components/Home/Home";
-import SingUp from "../Pages/SingUp/SingUp";
-import SingIn from "../Pages/SingIn/SingIn";
 import Shop from "../Pages/Shop/Shop";
 import ProductDetails from "../components/ShopComponent/ProductDetails";
+import Singup from "../Pages/SignUp/SignUp";
+import SignIn from "../Pages/SignIn/SignIn";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +24,12 @@ const router = createBrowserRouter([
         element: <ProductDetails></ProductDetails>
       },
       {
-        path: "/singup",
-        element: <SingUp></SingUp>,
+        path: "/signup",
+        element: <Singup></Singup>,
       },
       {
-        path: "/singin",
-        element: <SingIn></SingIn>,
+        path: "/signin",
+        element: <SignIn></SignIn>,
       },
     ],
   },
