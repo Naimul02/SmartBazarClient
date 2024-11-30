@@ -1,0 +1,49 @@
+.bb {
+  border: solid red 3px;
+}
+
+
+.max-w {
+  max-width: 1220px;
+  margin: auto;
+
+}
+
+.react-stars span {
+  pointer-events: none;
+}
+
+.cart-btn {
+
+  border-radius: 100%;
+  background-color: rgb(221, 221, 221);
+  padding: 9px;
+  color: black;
+}
+
+.cart-btn:hover {
+  background-color: #f5be05;
+}
+
+.mySSlide .swiper-slide {
+  height: 80px !important;
+  overflow: hidden;
+  border: solid rgb(184, 181, 181) 2px;
+  display: flex;
+  /* Flexbox ব্যবহার করে */
+  justify-content: center;
+  /* অনুভূমিকভাবে কেন্দ্রীকরণ */
+  align-items: center;
+  /* উল্লম্বভাবে কেন্দ্রীকরণ */
+}
+
+.mySSlide .swiper-slide img {
+  width: auto;
+  /* অটোমেটিক প্রস্থ ঠিক রাখবে */
+  height: 100%;
+  /* উচ্চতা স্লাইডারের সাথে খাপ খাবে */
+  object-fit: cover;
+  /* ইমেজ স্কেলিং ঠিক থাকবে */
+  object-position: center;
+  /* ইমেজ সব সময় কেন্দ্রে থাকবে */
+}
