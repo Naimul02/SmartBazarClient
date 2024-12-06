@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 // Map English categories to Bengali categories
 const categoriesFromDatabase = [
-  { english: "Vegetables", bengali: "শাকসবজি" },
-  { english: "Fruits", bengali: "ফল" },
-  { english: "Spices", bengali: "মশলা " },
+  { english: "vegetables", bengali: "শাকসবজি" },
+  { english: "fruits", bengali: "ফল" },
+  { english: "spices", bengali: "মশলা " },
 ];
 
 const CategoryFilter = ({setSelectedCategory,selectedCategory}) => {
@@ -27,8 +27,8 @@ const CategoryFilter = ({setSelectedCategory,selectedCategory}) => {
             id={"all"}
             name="all"
             value={"all"}
-            checked={selectedCategory === "all"}
-            onChange={() => filterCategories("all")}
+            checked={selectedCategory === null}
+            onChange={() => filterCategories(null)}
             className="h-4 w-4 border-2 border-gray-100 text-blue-500 rounded-sm" // Square styling
           />
           <label htmlFor={"all"} className="text-lg"> সবকিছু </label>

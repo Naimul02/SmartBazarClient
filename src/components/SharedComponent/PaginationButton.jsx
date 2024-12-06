@@ -16,7 +16,7 @@ const PaginationButton = ({ totalPages, setPage, currentPage }) => {
             {/* Prev Button */}
             <button
                 onClick={() => currentPage > 1 && setPage(currentPage - 1)}  // Only decrease page if it's greater than 1
-                className={`bg-gray-900 text-white p-2 rounded-sm  hover:bg-primary hover:text-black`}
+                className={`bg-gray-900 text-white p-2 rounded-sm   ${currentPage === 1 ?'cursor-not-allowed bg-opacity-50':  ' hover:bg-primary hover:text-black'}`}
                 disabled={currentPage === 1}  // Disable if on the first page
             >
               <IoIosArrowBack />
@@ -37,7 +37,7 @@ const PaginationButton = ({ totalPages, setPage, currentPage }) => {
             {/* Next Button */}
             <button
                 onClick={() => currentPage < totalPages && setPage(currentPage + 1)}  // Only increase page if it's less than totalPages
-                className={`bg-gray-900 text-white p-2 rounded-sm  hover:bg-primary hover:text-black`}
+                className={` text-white p-2 rounded-sm bg-gray-900   ${currentPage === totalPages?'cursor-not-allowed bg-opacity-50':  ' hover:bg-primary hover:text-black'}`}
                 disabled={currentPage === totalPages}  // Disable if on the last page
             >
               <IoIosArrowForward />

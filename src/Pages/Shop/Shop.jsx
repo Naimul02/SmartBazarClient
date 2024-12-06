@@ -17,20 +17,24 @@ const pathName = ['Home', 'Shop',]
 const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
 
-    const [sortValue, setSortValue] = useState('')
+   
+
+    const [sortBy,setSortBy]=useState('name')
+    const [sortOrder,setSortOrder]=useState('asc')
     const [maxPrice, setMaxPrice] = useState(1000)
     const [minPrice, setMinPrice] = useState(0)
     const [selectedLocation, setLocation] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState(null);
-
+    const [currentPage, setPage] = useState(1)
 
     const [openDrawer, setDrawer] = useState(false)
-    const [currentPage, setPage] = useState(1)
+
     const axiosPublic = useAxiosPublic()
+    const itemPerPage = 9;
 
-    console.log(maxPrice, minPrice, sortValue, selectedLocation, selectedCategory);
+   console.log(sortBy, sortOrder);
 
-    const totalPages = 5
+
 
 
     // const FilterData = {
@@ -46,17 +50,20 @@ const Shop = () => {
     //     newProduct:20
     // }
 
-    const { data } = useQuery({
-        queryKey: ['ProductData'],
+    const { data, isLoading, error } = useQuery({
+        queryKey: ['ProductData', currentPage, itemPerPage, sortOrder,sortBy , minPrice, maxPrice, selectedCategory, selectedLocation],
         queryFn: async () => {
-            const res = await axiosPublic.get(`./productBangla.json`);
+            const res = await axiosPublic.get(`/products?page=${currentPage}&limit=${itemPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&minPrice=${minPrice}&maxPrice=${maxPrice}&location=${selectedLocation}&category=${selectedCategory}`);
             return res.data;
         }
     });
 
+    console.log(data?.pagination?.totalPages);
 
-
+    if (isLoading) return <div>Loading....</div>
+    if (error) return <div>Error</div>
     return (
+        //   <div></div>
         <div className='bg-white  '>
             <Helmet>
                 <title>Shop|| SmartBazar </title>
@@ -105,23 +112,32 @@ const Shop = () => {
                         <ActionBar
                             layOutView={layOutView}
                             setView={setView}
-                            setSortValue={setSortValue}
-                            sortValue={sortValue}
+                           
                             setDrawer={setDrawer}
                             openDrawer={openDrawer}
+
+
+                            sortBy={sortBy}
+                            setSortBy={setSortBy}
+
+                            sortOrder={sortOrder}
+                            setSortOrder={setSortOrder}
                         ></ActionBar>
 
 
                         <div className={` grid  ${layOutView === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1' : ' grid-cols-1'} gap-4`}>
                             {
-                                data?.map((item, index) => <div key={index}>
+                                data?.data?.map((item, index) => <div key={index}>
                                     <ProductCard data={item} layOutView={layOutView} ></ProductCard>
                                 </div>)
                             }
 
                         </div>
 
-                        <PaginationButton currentPage={currentPage} setPage={setPage} totalPages={totalPages}  ></PaginationButton>
+                        <PaginationButton
+                            currentPage={data?.pagination?.currentPage}
+                            setPage={setPage}
+                            totalPages={data?.pagination?.totalPages}  ></PaginationButton>
 
                     </div>
 

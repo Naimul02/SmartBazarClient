@@ -1,13 +1,38 @@
 import { TfiFilter, TfiLayoutListThumb, TfiViewGrid } from "react-icons/tfi";
 import PropTypes from "prop-types";
+import { useState } from "react";
 
-const ActionBar = ({ setView, layOutView, setSortValue, sortValue, setDrawer, openDrawer }) => {
+
+
+
+
+const ActionBar = ({ setDrawer, openDrawer, setView, layOutView,  setSortBy, setSortOrder }) => {
+
+    const [sortValue, setSortValue] = useState('')
 
 
     const handleSortChange = (event) => {
-        setSortValue(event.target.value);
-
-    };
+        const value = event.target.value;
+        setSortValue(value);
+      
+        const sortConfig = {
+          "a-z": { sortBy: "name", sortOrder: "asc" },
+          "z-a": { sortBy: "name", sortOrder: "desc" },
+          "price-high-low": { sortBy: "price", sortOrder: "desc" },
+          "price-low-high": { sortBy: "price", sortOrder: "asc" },
+          "date-new-old": { sortBy: "addedDate", sortOrder: "desc" },
+          "date-old-new": { sortBy: "addedDate", sortOrder: "asc" },
+          "best-seller": { sortBy: "rating", sortOrder: "desc" },
+        };
+      
+        const selectedSort = sortConfig[value];
+        if (selectedSort) {
+          setSortBy(selectedSort.sortBy);
+          setSortOrder(selectedSort.sortOrder);
+        }
+      
+      };
+      
 
     return (
         <div className=" flex   lg:flex-row md:flex-row flex-col gap-4 justify-between items-center my-6 p-2 bg-slate-50">
@@ -40,8 +65,10 @@ const ActionBar = ({ setView, layOutView, setSortValue, sortValue, setDrawer, op
                     </option>
                     <option value="a-z">A-Z</option>
                     <option value="z-a">Z-A</option>
-                    <option value="price">Price</option>
-                    <option value="date">Date</option>
+                    <option value="price-high-low">Price High-Low</option>
+                    <option value="price-low-high">Price Low-High</option>
+                    <option value="date-new-old">Date (New-Old)</option>
+                    <option value="date-old-new">Date (Old-New)</option>
                     <option value="best-seller">Best Seller</option>
                 </select>
             </div>
@@ -50,12 +77,14 @@ const ActionBar = ({ setView, layOutView, setSortValue, sortValue, setDrawer, op
 };
 
 ActionBar.propTypes = {
-    setView: PropTypes.func.isRequired, 
-    layOutView: PropTypes.string.isRequired, 
-    setSortValue: PropTypes.func.isRequired, 
+    setView: PropTypes.func.isRequired,
+    layOutView: PropTypes.string.isRequired,
+    setSortValue: PropTypes.func.isRequired,
     sortValue: PropTypes.string.isRequired,
-    setDrawer: PropTypes.func.isRequired, 
-    openDrawer: PropTypes.bool.isRequired, 
+    setDrawer: PropTypes.func.isRequired,
+    openDrawer: PropTypes.bool.isRequired,
+    setSortBy: PropTypes.func.isRequired,
+    setSortOrder: PropTypes.func.isRequired,
 };
 
 export default ActionBar;
