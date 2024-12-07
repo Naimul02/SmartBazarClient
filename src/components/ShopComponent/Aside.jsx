@@ -3,11 +3,28 @@ import CategoryFilter from "./CategoryFilter";
 import LocationFilter from "./LocationFilter";
 import PriceFilter from "./PriceFilter";
 import image from '../../assets/image/smartBazar-SideBanner.png';
+import { useQuery } from "@tanstack/react-query";
+import useAxiosPublic from "../../CustomHocks/useAxiosPublic";
 
 const Aside = ({ setMinPrice, setMaxPrice, selectedLocation, setLocation, selectedCategory, setSelectedCategory }) => {
+  
+     const axiosPublic= useAxiosPublic()
+
+    const {data:options}=useQuery({
+        queryKey:['filteringOption '],
+        queryFn: async () => {
+        const res= await  axiosPublic.get('/products/getFilteringOptions')
+        return  res.data
+        },
+    })
+
+ 
+  
     return (
         <div className="w-full">
             <CategoryFilter
+            options={options?.data?.categories
+            }
                 selectedCategory={selectedCategory}
                 setSelectedCategory={setSelectedCategory}
             />
@@ -16,6 +33,7 @@ const Aside = ({ setMinPrice, setMaxPrice, selectedLocation, setLocation, select
                 setMinPrice={setMinPrice}
             />
             <LocationFilter
+            options={options?.data?.locations}
                 selectedLocation={selectedLocation}
                 setLocation={setLocation}
             />

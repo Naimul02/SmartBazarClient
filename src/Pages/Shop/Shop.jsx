@@ -17,10 +17,10 @@ const pathName = ['Home', 'Shop',]
 const Shop = () => {
     const [layOutView, setView] = useState('grid') // grid & line
 
-   
 
-    const [sortBy,setSortBy]=useState('name')
-    const [sortOrder,setSortOrder]=useState('asc')
+
+    const [sortBy, setSortBy] = useState('name')
+    const [sortOrder, setSortOrder] = useState('asc')
     const [maxPrice, setMaxPrice] = useState(1000)
     const [minPrice, setMinPrice] = useState(0)
     const [selectedLocation, setLocation] = useState(null);
@@ -32,7 +32,7 @@ const Shop = () => {
     const axiosPublic = useAxiosPublic()
     const itemPerPage = 9;
 
-   console.log(sortBy, sortOrder);
+    console.log(selectedLocation, selectedCategory);
 
 
 
@@ -51,7 +51,7 @@ const Shop = () => {
     // }
 
     const { data, isLoading, error } = useQuery({
-        queryKey: ['ProductData', currentPage, itemPerPage, sortOrder,sortBy , minPrice, maxPrice, selectedCategory, selectedLocation],
+        queryKey: ['ProductData', currentPage, itemPerPage, sortOrder, sortBy, minPrice, maxPrice, selectedCategory, selectedLocation],
         queryFn: async () => {
             const res = await axiosPublic.get(`/products?page=${currentPage}&limit=${itemPerPage}&sortBy=${sortBy}&sortOrder=${sortOrder}&minPrice=${minPrice}&maxPrice=${maxPrice}&location=${selectedLocation}&category=${selectedCategory}`);
             return res.data;
@@ -60,7 +60,7 @@ const Shop = () => {
 
     console.log(data?.pagination?.totalPages);
 
-    if (isLoading) return <div>Loading....</div>
+
     if (error) return <div>Error</div>
     return (
         //   <div></div>
@@ -103,44 +103,48 @@ const Shop = () => {
                     </aside>
 
                     {/* aside   End */}
-                    <div className='lg:col-span-9 md:col-span-9 col-span-12 w-full lg:p-5 md:p-3 p-1 '>
-                        <div>
-                            <h1 className="text-xl font-semibold text-black mb-2">New product (22) </h1>
-                            <img className=' w-full ' src={banner} alt=" collection banner " />
-                        </div>
 
-                        <ActionBar
-                            layOutView={layOutView}
-                            setView={setView}
-                           
-                            setDrawer={setDrawer}
-                            openDrawer={openDrawer}
+                    {
+                        isLoading ? <div> Loading </div>
 
+                            : <div className='lg:col-span-9 md:col-span-9 col-span-12 w-full lg:p-5 md:p-3 p-1 '>
+                                <div>
+                                    <h1 className="text-xl font-semibold text-black mb-2">New product (22) </h1>
+                                    <img className=' w-full ' src={banner} alt=" collection banner " />
+                                </div>
 
-                            sortBy={sortBy}
-                            setSortBy={setSortBy}
+                                <ActionBar
+                                    layOutView={layOutView}
+                                    setView={setView}
 
-                            sortOrder={sortOrder}
-                            setSortOrder={setSortOrder}
-                        ></ActionBar>
+                                    setDrawer={setDrawer}
+                                    openDrawer={openDrawer}
 
 
-                        <div className={` grid  ${layOutView === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1' : ' grid-cols-1'} gap-4`}>
-                            {
-                                data?.data?.map((item, index) => <div key={index}>
-                                    <ProductCard data={item} layOutView={layOutView} ></ProductCard>
-                                </div>)
-                            }
+                                    sortBy={sortBy}
+                                    setSortBy={setSortBy}
 
-                        </div>
+                                    sortOrder={sortOrder}
+                                    setSortOrder={setSortOrder}
+                                ></ActionBar>
 
-                        <PaginationButton
-                            currentPage={data?.pagination?.currentPage}
-                            setPage={setPage}
-                            totalPages={data?.pagination?.totalPages}  ></PaginationButton>
 
-                    </div>
+                                <div className={` grid  ${layOutView === 'grid' ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1' : ' grid-cols-1'} gap-4`}>
+                                    {
+                                        data?.data?.map((item, index) => <div key={index}>
+                                            <ProductCard data={item} layOutView={layOutView} ></ProductCard>
+                                        </div>)
+                                    }
 
+                                </div>
+
+                                <PaginationButton
+                                    currentPage={data?.pagination?.currentPage}
+                                    setPage={setPage}
+                                    totalPages={data?.pagination?.totalPages}  ></PaginationButton>
+
+                            </div>
+                    }
                 </div>
             </div>
 

@@ -1,15 +1,25 @@
 
 import PropTypes from "prop-types";
 
-// Map English categories to Bengali categories
-const categoriesFromDatabase = [
-  { english: "vegetables", bengali: "শাকসবজি" },
-  { english: "fruits", bengali: "ফল" },
-  { english: "spices", bengali: "মশলা " },
-];
+const convertToBengaliNumber = (number) => {
+  const englishToBengaliDigits = {
+      '0': '০',
+      '1': '১',
+      '2': '২',
+      '3': '৩',
+      '4': '৪',
+      '5': '৫',
+      '6': '৬',
+      '7': '৭',
+      '8': '৮',
+      '9': '৯',
+  };
 
-const CategoryFilter = ({setSelectedCategory,selectedCategory}) => {
-  
+  return number.toString().split('').map(digit => englishToBengaliDigits[digit] || digit).join('');
+};
+
+const CategoryFilter = ({ setSelectedCategory, selectedCategory, options }) => {
+
 
   // Handle category selection with the checkbox
   const filterCategories = (category) => {
@@ -35,27 +45,34 @@ const CategoryFilter = ({setSelectedCategory,selectedCategory}) => {
         </div>
 
         {/* Render category list with checkboxes */}
-        {categoriesFromDatabase.map((category, index) => (
+        {options?.map((category, index) => (
           <div key={index} className="flex items-center space-x-2">
             <input
               type="checkbox"
-              id={category.english}
+              id={category?.category}
               name="category"
-              value={category.english}
-              checked={selectedCategory === category.english}
-              onChange={() => filterCategories(category.english)}
+              value={category?.category}
+              checked={selectedCategory === category?.category}
+              onChange={() => filterCategories(category?.category)}
               className="h-4 w-4 border-2 border-gray-100 text-blue-500 rounded-sm" // Square styling
             />
-            <label htmlFor={category.english} className="text-lg">{category.bengali}</label>
+           <div className="flex justify-between w-full">
+           <label htmlFor={category?.category} className="text-lg">{category?.category}</label>
+            <span className="text-sm">
+              ({convertToBengaliNumber(category.count)} পণ্য)
+            </span>
+           </div>
           </div>
+
         ))}
       </div>
     </div>
   );
 };
 CategoryFilter.propTypes = {
-  selectedCategory: PropTypes.string, 
-  setSelectedCategory: PropTypes.func.isRequired, 
+  selectedCategory: PropTypes.string,
+  setSelectedCategory: PropTypes.func.isRequired,
+  options: PropTypes.array.isRequired,
 };
 
 export default CategoryFilter;
